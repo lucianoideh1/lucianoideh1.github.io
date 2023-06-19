@@ -1,0 +1,21 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Inter", sans-serif;
+  color: var(--clr-light);
+}
+:root {
+  --clr-light: #eed5ae;
+  --clr-red: #b3001b;
+  --clr-dark-neutral: #627264;
+}
+body {
+  background-color: crimson;
+  background-color: var(--clr-red);
+  display: flex;
+  justify-content: center;
+}
