@@ -33,6 +33,13 @@ body {
 
 main {
   width: 800px;
+  text-align: center;
+  padding: 45vh;
+  border: 1px solid var(--clr-dark);
+}
+
+main * {
+  padding: 10px;
 }
 
 .btn-1 {
@@ -65,5 +72,6 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 40vh;
   }
 }
