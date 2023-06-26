@@ -17,6 +17,19 @@
   --clr-dark: #223;
 }
 
+::selection {
+  background-color: var(--clr-dark);
+  background-color: var(--clr-red);
+  color: aliceblue;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
 h1 {
   text-transform: uppercase;
   font-weight: 900;
@@ -29,18 +42,22 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 main {
   width: 800px;
-  text-align: center;
-  padding: 45vh;
-  border: 1px solid var(--clr-dark);
+  height: 95vh;
+  padding: 40vh;
+  margin: 0 auto;
+  /* border: 1px solid var(--clr-dark); */
 }
 
 main * {
   padding: 10px;
 }
+
+
 
 .btn-1 {
   color: #223;
@@ -60,6 +77,31 @@ main * {
   border-radius: 5px;
 }
 
+@media (max-width:800px) {
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  main {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40vh;
+  }
+
+  .buttons {
+    display: flex;
+  }
+
+  .buttons * {
+    margin: 5px;
+  }
+}
+
 @media (max-width:600px) {
   body {
     display: flex;
@@ -68,6 +110,7 @@ main * {
   }
 
   main {
+    width: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
