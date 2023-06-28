@@ -69,9 +69,11 @@ main * {
 
 .about {
   width: 800px;
-  border-radius: 30px;
+  border-radius: 10px;
   border: 2px solid yellow;
   background-color: var(--clr-dark);
+  margin: 2px;
+  padding: 10px;
 }
 
 .about * {
@@ -81,4 +83,48 @@ main * {
 
 .about>h2 {
   text-transform: capitalize;
+}
+
+.work {
+  width: 800px;
+  border: 1px solid var(--clr-red);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--clr-red);
+  margin: 5px;
+}
+
+@media (max-width:600px) {
+  body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  header {
+    display: none;
+  }
+
+  main {
+    width: 300px;
+    height: 90vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .about {
+    width: 300px;
+  }
 }
