@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+:root {
+    --clr-light: #e4e6dc;
+    --clr-red: #b3001b;
+    --clr-dark-neutral: #627264;
+    --clr-dark: #223;
+    --clr-blue-satur: #0000ff;
+    ;
+}
+
+::selection {
+    background-color: var(--clr-red);
+    background-color: var(--clr-blue-satur);
+    color: aliceblue;
+}
+
+a {
+    color: #1d5cd1;
+
+}
+
+button,
+input,
+textarea,
+select {
+    font: inherit;
+}
+
+body {
+    background-color: var(--clr-light);
+    color: var(--clr-dark);
+}
