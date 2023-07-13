@@ -42,7 +42,7 @@ body {
 }
 
 .container {
-  background-color: #f2f2f2;
+  background-color: #e4e6dc;
   padding: 20px;
   width: 60%;
   margin: 0 auto;
@@ -51,10 +51,17 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  position: relative;
 }
 
 main {
   width: 800px;
+  height: 20em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 2em;
 }
 
 main * {
@@ -63,18 +70,29 @@ main * {
 
 nav {
   background-color: #223;
+  height: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 nav ul {
+  width: 100%;
   display: flex;
   list-style: none;
+  align-items: center;
   justify-content: center;
   padding: 10px;
 }
 
 nav ul li {
   text-transform: capitalize;
-  margin-left: 10px;
+  margin-left: 2em;
+  font-size: 1.5em;
+}
+
+nav ul li a:hover {
+  color: #68deff;
 }
 
 .btn-1 {
@@ -84,9 +102,11 @@ nav ul li {
   outline: none;
   padding: 5px 15px;
   border-radius: 5px;
+  width: 5em;
 }
 
 .btn-2 {
+  width: 5em;
   color: var(--clr-light);
   background-color: var(--clr-dark);
   border: 1px solid var(--clr-light);
@@ -100,7 +120,11 @@ nav ul li {
   border-radius: 10px;
   background-color: var(--clr-dark);
   margin: 2px;
-  padding: 10px;
+  padding: 2em;
+}
+
+.about-title {
+  font-size: 2.5em;
 }
 
 .about * {
@@ -167,6 +191,29 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
   width: 60%;
+  margin: 2em 0;
+}
+
+footer {
+  background-color: var(--clr-dark);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+footer>ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer>ul>li {
+  text-transform: capitalize;
+  font-size: 1.5em;
+  margin: 5px 10px;
+  list-style: none;
+  border-bottom: 1px solid var(--clr-light);
+  padding: .5em;
 }
 
 @media (max-width:600px) {
@@ -212,5 +259,10 @@ input[type=submit]:hover {
 
   input[type=submit] {
     width: 100%;
+  }
+
+  footer ul {
+    flex-direction: column;
+    margin-top: 1em;
   }
 }
