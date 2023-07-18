@@ -148,7 +148,14 @@ nav ul li h2 {
   text-transform: capitalize;
 }
 
+.experience-section {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
 .experience-container {
+  background-color: #f0f5f9;
   width: 700px;
   border: 1px solid red;
   display: flex;
@@ -162,14 +169,18 @@ nav ul li h2 {
 .experience-text {
   padding: 10px;
   max-width: 50%;
-  max-height: min-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-text p {
+  max-height: 190px;
 }
 
 .experience-text span {
   font-weight: bold;
   font-size: 1.5em;
   padding: 10px;
-  margin-bottom: 20px;
 }
 
 .box {
