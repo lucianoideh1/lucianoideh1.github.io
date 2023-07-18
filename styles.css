@@ -8,7 +8,7 @@
 }
 
 :root {
-  --clr-light: #e4e6dc;
+  --clr-light: #f0f5f9;
   --clr-red: #b3001b;
   --clr-dark-neutral: #627264;
   --clr-dark: #223;
@@ -39,6 +39,10 @@ h1 {
 
 body {
   background-color: #e4e6dc;
+}
+
+.text-align-start {
+  text-align: start;
 }
 
 .container {
@@ -83,16 +87,24 @@ nav ul {
   align-items: center;
   justify-content: center;
   padding: 10px;
+  color: #f2f2f2;
 }
 
 nav ul li {
-  text-transform: capitalize;
+  text-transform: uppercase;
+  font-weight: 200;
   margin-left: 2em;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 nav ul li a:hover {
   color: #68deff;
+}
+
+nav ul li h2 {
+  background-color: #454ca0;
+  padding: 10px;
+  border-radius: 3px;
 }
 
 .btn-1 {
