@@ -48,7 +48,7 @@ body {
 .container {
   background-color: #e4e6dc;
   padding: 20px;
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
   text-align: center;
   display: flex;
@@ -148,28 +148,38 @@ nav ul li h2 {
   text-transform: capitalize;
 }
 
-.work {
-  border: 1px solid var(--clr-red);
+.experience-container {
+  width: 700px;
+  border: 1px solid red;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin: 10px;
-  width: 800px;
+  align-content: center;
+  justify-content: center;
+  text-align: balance;
+  line-height: 2em;
+  padding: 10px;
 }
 
+.experience-text {
+  padding: 10px;
+  max-width: 50%;
+  max-height: min-content;
+}
+
+.experience-text span {
+  font-weight: bold;
+  font-size: 1.5em;
+  padding: 10px;
+  margin-bottom: 20px;
+}
 
 .box {
   align-items: center;
   background-color: var(--clr-dark-neutral);
   border: 1px solid var(--clr-red);
   display: flex;
-  height: 200px;
+  height: 300px;
   justify-content: center;
-  width: 200px;
-}
-
-.work>* {
-  margin: 5px auto;
+  width: 400px;
 }
 
 input[type=text],
@@ -206,27 +216,6 @@ input[type=submit]:hover {
   margin: 2em 0;
 }
 
-footer {
-  background-color: var(--clr-dark);
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-}
-
-footer>ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-footer>ul>li {
-  text-transform: capitalize;
-  font-size: 1.5em;
-  margin: 5px 10px;
-  list-style: none;
-  border-bottom: 1px solid var(--clr-light);
-  padding: .5em;
-}
 
 @media (max-width:600px) {
   .container {
@@ -271,10 +260,5 @@ footer>ul>li {
 
   input[type=submit] {
     width: 100%;
-  }
-
-  footer ul {
-    flex-direction: column;
-    margin-top: 1em;
   }
 }
