@@ -40,6 +40,34 @@ body {
     color: var(--clr-dark);
 }
 
+nav {
+    height: 4em;
+    width: 100%;
+}
+
+nav ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: start;
+    font-size: 1.2em;
+}
+
+nav ul li {
+    margin-left: 1.2em;
+}
+
+nav ul li a {
+    color: rgb(48, 48, 70);
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
 #banner {
     width: 100%;
     height: 200px;
