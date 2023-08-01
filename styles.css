@@ -46,10 +46,12 @@ body {
 }
 
 .container {
-  background-color: #e4e6dc;
+  border-radius: 1em;
+  box-shadow: 10px 10px 32px 0px rgba(0,0,0,0.75);
+  background-color: var(--clr-light);
   padding: 20px;
-  width: 80%;
-  margin: 0 auto;
+  width: 70%;
+  margin: 1em auto;
   text-align: center;
   display: flex;
   align-items: center;
@@ -128,13 +130,18 @@ nav ul li h2 {
 }
 
 .about {
-  width: 800px;
+  width: 100%;
   border-radius: 10px;
-  background-color: var(--clr-dark);
+  border:1px solid var(--clr-dark);
   margin: 2px;
   padding: 2em;
 }
-
+.about h2{
+  color:var(--clr-dark)
+}
+.about p{
+  color: var(--clr-dark);
+}
 .about-title {
   font-size: 2.5em;
 }
