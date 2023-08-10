@@ -1,0 +1,89 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+:root {
+    --clr-light: #e4e6dc;
+    --clr-light: aliceblue;
+    --clr-red: #b3001b;
+    --clr-dark-neutral: #627264;
+    --clr-dark: #223;
+    --clr-blue-satur: #0000ff;
+    ;
+}
+
+::selection {
+    background-color: var(--clr-red);
+    background-color: var(--clr-blue-satur);
+    color: aliceblue;
+}
+
+a {
+    color: #1d5cd1;
+
+}
+
+button,
+input,
+textarea,
+select {
+    font: inherit;
+}
+
+body {
+    background-color: var(--clr-light);
+    color: var(--clr-dark);
+}
+
+nav {
+    height: 4em;
+    width: 100%;
+}
+
+nav ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: start;
+    font-size: 1.2em;
+}
+
+nav ul li {
+    margin-left: 1.2em;
+}
+
+nav ul li a {
+    color: rgb(48, 48, 70);
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+#banner {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+}
+
+main {
+    margin: 1em 0 2em 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: var(--clr-light);
+}
+
+section * {
+    line-height: 1.5em
+}
