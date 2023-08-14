@@ -71,13 +71,20 @@ nav ul li {
 
 nav ul li a {
     color: rgb(48, 48, 70);
-    font-weight: bold;
+    font-weight: 700;
 }
 
 a {
     text-decoration: none;
 }
-
+.contact-btn{
+    background-color: #223;
+    color: white;
+    padding: .3em 1.2em;
+}
+.contact-btn:hover{
+    background-color: #627264;
+}
 #banner {
     width: 100%;
     height: 200px;
