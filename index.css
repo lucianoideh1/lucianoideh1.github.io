@@ -53,10 +53,16 @@ body {
 nav {
     height: 4em;
     width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    justify-content: space-around;
 }
-
+nav *{
+    list-style: none;
+}
 nav ul {
-    width: 100%;
+    width: fit-content;
     height: 100%;
     display: flex;
     list-style: none;
@@ -104,6 +110,25 @@ main {
 section * {
     line-height: 1.5em
 }
+
+.work-exp-wrapper{
+padding: 1em;
+width: 100%;
+margin: 1em auto;
+height: 900px;
+}
+.experience{
+    width: fit-content;
+    margin: 1em 0;
+    display: flex;
+    padding: 1em;
+    gap:.5em;
+    background-color: rgb(235, 230, 223);
+}
+.experience p{
+    width:300px;
+}
+
 @media (max-width:1000px) {
     .mobile-navbar{
         display: inline-block;
