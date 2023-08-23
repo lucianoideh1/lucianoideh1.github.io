@@ -21,7 +21,9 @@
     background-color: var(--clr-blue-satur);
     color: aliceblue;
 }
-
+h1{
+    font-size: 2.6em;
+}
 a {
     color: #00bfff;
 
@@ -38,27 +40,70 @@ body {
     background-color: var(--clr-dark);
     color: var(--clr-light);
 }
-
+header{
+    height: 50px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    height: 100%;
+}
+nav h2 {
+margin-left: 2em;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    margin-right: 2em;
+}
+ul li {
+    margin: .2em .5em;
+    list-style: none;
+    font-size: 1.2em;
+}
+ul li a {
+    text-decoration: none;
+}
+main{
+    width: fit-content;
+    margin:0 auto;
+}
+.main-content{
+    width: 500px;
+    padding: 1em;
+    text-align: start;
+}
+.main-content p{
+line-height: 1.7em;
+}
+.main-content *{
+    margin: .2em;
+}
 .hello-world {
     color: white;
-    font-size: 2.8em;
 }
-
+ 
 main>p {
     line-height: 1.2em;
 }
 
-.action-btn {
+.action-btn1 {
     background-color: rgb(255, 145, 0);
     color: white;
     border: none;
     padding: .3em 1.5em;
-    border-radius: 1em;
+}
+.action-btn2 {
+    background-color: rgb(0, 170, 255);
+    color: white;
+    border: none;
+    padding: .3em 1.5em;
 }
 
 .about-title {
     color: white;
-    font-size: 2.6em;
 }
 
 .work {
