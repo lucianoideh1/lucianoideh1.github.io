@@ -137,3 +137,7 @@ main>p {
     margin-bottom: 1em;
 }
 
+.contact-card{
+    background-color: #666272;
+    width: 300px;
+}
