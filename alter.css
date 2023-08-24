@@ -105,6 +105,11 @@ main>p {
 .about-title {
     color: white;
 }
+.about{
+    width: 500px;
+    text-align: center;
+    margin: 1em auto;
+}
 
 .work {
     display: flex;
@@ -120,6 +125,8 @@ main>p {
     width: 320px;
     color: var(--clr-dark);
     margin: 0 auto;
+    text-align: center;
+    line-height: 1.8em;
 }
 
 .color-box {
@@ -127,9 +134,6 @@ main>p {
     height: 100px;
     width: 100%;
     background-color: aliceblue;
-}
-
-.black-card {
-    background-color: var(--clr-dark);
+    margin-bottom: 1em;
 }
 
