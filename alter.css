@@ -8,7 +8,7 @@
 }
 
 :root {
-    --clr-light: #e4e6dc;
+    --clr-light: #ffffff;
     --clr-red: #b3001b;
     --clr-dark-neutral: #627264;
     --clr-dark: #223;
@@ -64,7 +64,11 @@ ul li {
     font-size: 1.2em;
 }
 ul li a {
+    text-transform: capitalize;
     text-decoration: none;
+}
+ul li a:hover{
+    color: #28729d;
 }
 main{
     width: fit-content;
@@ -92,16 +96,21 @@ main>p {
 }
 
 .action-btn1 {
+    font-size: 1.2em;
     background-color: rgb(255, 145, 0);
     color: white;
     border: none;
     padding: .3em 1.5em;
+    border-radius: .8em;
+
 }
 .action-btn2 {
+    font-size: 1.2em;
     background-color: rgb(0, 170, 255);
     color: white;
     border: none;
     padding: .3em 1.5em;
+    border-radius: .8em;
 }
 
 .about-title {
@@ -121,14 +130,19 @@ main>p {
 }
 
 .card {
-    background-color: var(--clr-light);
-    border: 1px solid red;
+    background-color:rgb(47, 47, 85);
+
+    border-radius: .3em;
+
     height: 280px;
     width: 320px;
-    color: var(--clr-dark);
+    color: #e6e6e6;
     margin: 0 auto;
     text-align: center;
     line-height: 1.8em;
+}
+.card p {
+    padding: .3em;
 }
 
 .color-box {
