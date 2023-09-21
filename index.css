@@ -57,6 +57,9 @@ nav {
     align-items: center;
     padding: 1em;
     justify-content: space-around;
+
+    /* position: relative;
+    z-index: 1; */
 }
 nav *{
     list-style: none;
@@ -105,6 +108,12 @@ main {
     width: 90%;
     margin: 0 auto;
     background-color: var(--clr-light);
+
+    /* border-radius: .3em;    
+    padding: 1em;
+    box-shadow: 4px 4px 33px 4px rgba(0,0,0,0.64); */
+
+
 }
 
 section * {
@@ -118,17 +127,21 @@ margin: 1em auto;
 height: 900px;
 }
 .experience{
-    width: fit-content;
-    margin: 1em 0;
-    display: flex;
-    padding: 1em;
-    gap:.5em;
     background-color: rgb(235, 230, 223);
+    display: flex;
+    gap:.5em;
+    margin: 1em 0;
+    padding: 1em;
+    text-align: center;
+    width: fit-content;
 }
 .experience p{
     width:300px;
 }
-
+ol img{
+    width: 800px;
+    height: 500px;
+}
 @media (max-width:1000px) {
     .mobile-navbar{
         display: inline-block;
