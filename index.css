@@ -52,11 +52,12 @@ body {
 }
 nav {
     height: 4em;
-    width: 100%;
+    width: 1200px;
     display: flex;
     align-items: center;
-    padding: 1em;
-    justify-content: space-around;
+    padding: 1rem 1rem;
+    margin: 0 auto;
+    justify-content: space-between;
 
     /* position: relative;
     z-index: 1; */
@@ -88,12 +89,14 @@ a {
 }
 .contact-btn{
     background-color: transparent ;
-    color:rgb(52, 52, 52);
+    color:rgb(18, 18, 18);
     padding: .3em 1.2em;
     border:2px solid #223;
-    border-radius: 1rem;
-    transition: all .5s;
+    /* border-radius: 1rem; */
+    transition: all .4s;
+    font-weight:600;
 }
+
 .contact-btn:hover{
     background-color: #5e5e5e;
     color: white;
@@ -106,6 +109,9 @@ a {
 
 main {
     margin: 1em 0 2em 0;
+}
+main a:hover{
+color: rgb(29, 41, 172);
 }
 .img-placeholder{
     background-color: #627264;
