@@ -39,16 +39,9 @@ body {
     background-color: var(--clr-light);
     color: var(--clr-dark);
 }
-.nav-toggle-el{
-    background-color: #223;
-    color: white;
-    padding: 1em 1.3em;
-    border-radius: 50%;
-    font-weight: 700;
-    display: none;
-}
-.mobile-navbar{
-    display: none;
+
+header{
+    border-bottom: 1px solid #5e5e5e;
 }
 nav {
     height: 4em;
@@ -58,9 +51,6 @@ nav {
     padding: 1rem 1rem;
     margin: 0 auto;
     justify-content: space-between;
-
-    /* position: relative;
-    z-index: 1; */
 }
 nav *{
     list-style: none;
@@ -82,6 +72,9 @@ nav ul li {
 nav ul li a {
     color: rgb(48, 48, 70);
     font-weight: 700;
+}
+nav ul li a:hover{
+color: rgb(147, 147, 147);
 }
 
 a {
