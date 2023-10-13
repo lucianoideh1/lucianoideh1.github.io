@@ -41,7 +41,7 @@ body {
 }
 
 header{
-    border-bottom: 1px solid #5e5e5e;
+    border-bottom: 1px solid #b0b0b0;
 }
 nav {
     height: 4em;
@@ -127,24 +127,34 @@ color: rgb(29, 41, 172);
 section * {
     line-height: 1.5em
 }
-
+#work{
+    margin-bottom: 7rem;
+}
 .work-exp-wrapper{
 padding: 1em;
 width: 100%;
 margin: 1em auto;
-height: 900px;
+display: flex;
+flex-wrap: wrap;
+gap: 1rem;
 }
 .experience{
     background-color: rgb(235, 230, 223);
     display: flex;
     gap:.5em;
-    margin: 1em 0;
-    padding: 1em;
     text-align: center;
     width: fit-content;
+    height: 240px;
 }
-.experience p{
+.experience article{
     width:300px;
+    height: 172px;
+    padding: 1rem;
+}
+.experience img{
+    width: 252px;
+    height: 172px;
+    padding: 2rem 0 0 1rem;
 }
 ol img{
     width: 800px;
