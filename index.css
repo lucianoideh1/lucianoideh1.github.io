@@ -112,6 +112,12 @@ color: rgb(29, 41, 172);
     height: 25rem;
     border-radius: .5rem; 
     margin: 1rem;
+    transition: all 1s;
+}
+.img-placeholder:hover{
+    -webkit-box-shadow: inset 0px 0px 30px 0px rgba(245,46,46,1);
+-moz-box-shadow: inset 0px 0px 30px 0px rgba(245,46,46,1);
+box-shadow: inset 0px 0px 30px 0px rgba(245,46,46,1);
 }
 .container {
     width: 1200px;
@@ -157,8 +163,8 @@ gap: 1rem;
     padding: 2rem 0 0 1rem;
 }
 ol img{
-    width: 800px;
-    height: 500px;
+    width: 500px;
+    height: 300px;
 }
 @media (max-width:1000px) {
     header,nav{
