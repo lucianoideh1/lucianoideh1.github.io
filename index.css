@@ -171,7 +171,7 @@ ol img{
 /* start of card section */
 /* start of card section */
 .card-about{
-    width: 300px;
+    width: 370px;
     border: 1px solid black;
     border-radius: .5rem;
     background-color: rgb(39, 39, 41);
@@ -181,6 +181,7 @@ ol img{
     text-align: center;
 }
 .card-about img {
+    border-radius: .5rem .5rem 0 0;
     margin-bottom: 1rem;
 }
 .card-about .name{
@@ -199,7 +200,7 @@ ol img{
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 .card-about .buttons *{
     border: none;
