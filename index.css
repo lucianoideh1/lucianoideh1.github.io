@@ -180,6 +180,67 @@ ol img{
     flex-direction: column;
     text-align: center;
 }
+.card-about img {
+    margin-bottom: 1rem;
+}
+.card-about .name{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.card-about .title{
+    color: rgb(221, 149, 55);
+    font-size: 1.2rem;
+    font-family: 600;
+}
+.card-about .subtitle{
+    margin-bottom: 1rem;
+}
+.card-about .buttons{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.card-about .buttons *{
+    border: none;
+    outline: none;
+    border-radius: .3rem;
+    width: 6rem;
+    text-align: center;
+    padding: .3rem;
+}
+.card-about .email{
+    background-color: white;
+    color: black;
+}
+.card-about .linkedin{
+    background-color: #5b88e7;
+    color: white;
+}
+.card-about .about-card, .card-about .interest-card{
+    text-align: start;
+    padding: 1rem;
+}
+.card-about .interest-card .interest-title,.card-about .about-card .about-title{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.card-about .interest-card .interest-text, .card-about .about-card .about-text{
+    font-size: .9rem;
+    line-height: 1.6rem;
+}
+.card-about .card-footer{
+    height: 4rem;
+    background-color: rgb(19, 19, 19);
+    border-radius: 0 0 .5rem .5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3d3d3d;
+    font-weight: 700;
+    font-size: 2rem;
+}
 @media (max-width:1000px) {
     header,nav{
         display: none;
