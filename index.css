@@ -77,7 +77,9 @@ nav ul li a {
 nav ul li a:hover{
 color: rgb(147, 147, 147);
 }
-
+ul li{
+    list-style: none;
+}
 a {
     text-decoration: none;
 }
@@ -153,36 +155,31 @@ section * {
 #work{
     margin-bottom: 7rem;
 }
-.work-exp-wrapper{
+.work-exp-wrapper ul{
+border: 1px solid black;
 padding: 1em;
 width: 100%;
-margin: 1em auto;
 display: flex;
 flex-wrap: wrap;
 gap: 1rem;
+
+justify-content: center;
 }
-.experience{
-    background-color: rgb(235, 230, 223);
+.work-exp-wrapper ul li{
+    border: 1px solid rgb(167, 0, 0);
+    width: 400px;
+
     display: flex;
-    gap:.5em;
-    text-align: center;
-    width: fit-content;
-    height: 240px;
-}
-.experience article{
-    width:300px;
-    height: 172px;
+    flex-direction: column;
     padding: 1rem;
+    }
+.experience-item img{
+    margin: 0 auto;
+    width: 352px;
+    height: 272px;
+    padding: .5rem 0 0 .5rem;
 }
-.experience img{
-    width: 252px;
-    height: 172px;
-    padding: 2rem 0 0 1rem;
-}
-ol img{
-    width: 500px;
-    height: 300px;
-}
+
 /* start of card section */
 /* start of card section */
 /* start of card section */
