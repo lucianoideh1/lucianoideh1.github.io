@@ -112,7 +112,7 @@ color: rgb(29, 41, 172);
     width: 100%;
     height: 25rem;
     border-radius: .5rem; 
-    margin: 1rem;
+    padding: 1rem;
     transition: all 1s;
 }
 .img-placeholder:hover{
@@ -247,4 +247,10 @@ ol img{
         display: none;
     }
 
+}
+@media (max-width:600px){
+    .container{
+        width: 100%;
+        margin: 0;
+    }
 }
