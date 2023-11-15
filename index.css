@@ -277,6 +277,17 @@ justify-content: center;
 }
 .header h2{
     margin-right: auto;
+    outline: 1px solid #3d3d3d;
+}
+.header h2 span:nth-child(1){
+    background-color: #3d3d3d;
+    color: white;
+    padding-right: .3rem;
+}
+.header h2 span:nth-child(2){
+color: #3d3d3d;
+padding-left: .3rem;
+
 }
 .header ul{
     display: flex;
