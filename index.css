@@ -269,6 +269,19 @@ justify-content: center;
     font-weight: 700;
     font-size: 2rem;
 }
+.header{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid grey;
+}
+.header h2{
+    margin-right: auto;
+}
+.header ul{
+    display: flex;
+    gap: .6rem;
+}
 @media (max-width:1000px) {
     header,nav{
         display: none;
