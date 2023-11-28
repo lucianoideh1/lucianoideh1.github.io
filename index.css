@@ -41,42 +41,7 @@ body {
     color: var(--clr-dark);
 }
 
-header{
-    border-bottom: 1px solid #b0b0b0;
-}
-nav {
-    height: 4em;
-    width: 1200px;
-    display: flex;
-    align-items: center;
-    padding: 1rem 1rem;
-    margin: 0 auto;
-    justify-content: space-between;
-}
-nav *{
-    list-style: none;
-}
-nav ul {
-    width: fit-content;
-    height: 100%;
-    display: flex;
-    list-style: none;
-    align-items: center;
-    justify-content: start;
-    font-size: 1.2em;
-}
 
-nav ul li {
-    margin-left: 1.2em;
-}
-
-nav ul li a {
-    color: rgb(48, 48, 70);
-    font-weight: 700;
-}
-nav ul li a:hover{
-color: rgb(147, 147, 147);
-}
 ul li{
     list-style: none;
 }
