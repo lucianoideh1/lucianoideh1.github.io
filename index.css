@@ -238,15 +238,26 @@ justify-content: center;
 .card-about .email{
     background-color: white;
     color: black;
+    transition:all .5s ease-in-out;
+
+}
+.card-about .email:hover{
+    background-color: rgb(230, 230, 230);
+    color: black;
 }
 .email a{
     color: black;
 }
-.linkedin a{
-    color: white;
-}
 .card-about .linkedin{
     background-color: #5b88e7;
+    color: white;
+    transition:all .5s ease-in-out;
+}
+.linkedin:hover{
+    background-color: #5da5ed;
+
+}
+.linkedin a{
     color: white;
 }
 .card-about .about-card, .card-about .interest-card{
