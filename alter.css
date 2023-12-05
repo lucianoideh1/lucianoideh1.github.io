@@ -41,13 +41,14 @@ body {
     color: var(--clr-light);
 }
 header{
-    height: 50px;
+    height: 5rem;
 }
 nav{
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 2em;
     height: 100%;
 }
 nav h2 {
