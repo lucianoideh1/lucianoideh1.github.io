@@ -37,12 +37,13 @@ select {
 }
 
 body {
-    background-color: var(--clr-light);
-    color: var(--clr-dark);
+    background-color: #151515;
+    color: #E8E8E8;
 }
 header{
-    border-bottom: 1px solid grey;
+    /* border-bottom: 1px solid grey; */
     margin-bottom: 5rem;
+    padding: 1rem 3rem;
 }
 header nav{
     display: flex;
@@ -55,7 +56,7 @@ header ul{
     gap: 1rem;
 }
 header nav ul li a {
-    color: #2f2f2f;
+    color: #E8E8E8;
 }
 header nav{
     width: 100%;
@@ -73,7 +74,6 @@ a {
 .container {
     width: 1200px;
     margin: 0 auto;
-    background-color: var(--clr-light);
     padding: 1rem;
 }
 .title{
@@ -83,8 +83,8 @@ a {
     margin-bottom: 2rem;
 }
 .available{
-    color: #1D3B57;
-    background-color: #BBDDFC;
+    color: #429CEE;
+    background-color: #274969;
     padding: .5rem 1rem;
 }
 main{
@@ -96,18 +96,21 @@ main h1{
     display: inline;
     margin-right: 1rem;
 }
+main p{
+    color: #AAAAAA;
+}
 header nav span{
-    /* margin-right: auto; */
     margin: 0 .6rem;
+    margin-right: auto;
     color: #ffffff;
-    background-color: #313144;
+    background-color: #429CEE;
     font-weight: 900;
     padding: .4rem 1rem;
     transition: all .4s ease-in-out;
 }
 header nav span:hover{
     cursor: pointer;
-    background-color: #0000ff;
+    background-color: #1010e6;
     scale: 80%;
 
 }
@@ -136,10 +139,10 @@ header nav ul li:hover{
 ul li a button{
     border-radius: 1rem;
     padding: .3rem 1rem;
-    border: 1px solid #4a4a4a;
+    border: 1px solid #D9D9D9;
     outline: none;
     background-color: transparent;
-    color: #4a4a4a;
+    color: #E8E8E8;
     margin-bottom: .8rem;
 }
 .socials li a button:hover,.available:hover{
@@ -147,7 +150,7 @@ ul li a button{
     cursor: pointer;
 }
 .category{
-    color: #6e6e6e;
+    color: #8B8B8B;
     margin-bottom: 1rem;
 }
 .work__title{
@@ -156,7 +159,7 @@ ul li a button{
     margin-bottom: 1rem;
 }
 .work .description{
-    color: #505050;
+    color: #AAAAAA;
     line-height: 2rem;
     font-size: 1.2rem;
     width: 70%;
