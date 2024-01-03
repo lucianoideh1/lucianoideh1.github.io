@@ -48,7 +48,6 @@ header{
 header nav{
     display: flex;
     align-items: center;
-    padding: 1rem;
 }
 
 header ul{
@@ -59,8 +58,11 @@ header nav ul li a {
     color: #E8E8E8;
 }
 header nav{
-    width: 100%;
+    /* width: 100%;
     padding: 1rem;
+    margin: 0 auto; */
+
+    width: 1200px;
     margin: 0 auto;
 }
 
