@@ -40,10 +40,41 @@ body {
     background-color: #151515;
     color: #E8E8E8;
 }
+header{
+    margin-bottom: 2rem;
+    padding: .5rem;
+}
+header nav{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+header nav ul{
+    display: flex;
+    gap: 1rem;
+    padding: .5rem;
+    margin-left: auto;
+}
+header nav ul li{
+    list-style-type: none;
+    padding: .5rem;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: var(--clr-light);
+}
 .container{
     padding: 2rem;
     width: 1280px;
     margin: 0 auto;
+}
+.hero{
+    display: flex;
+    height: 500px;
+}
+.hero-img{
+    width: 50%;
+    overflow: hidden;
 }
 .hero-details{
     width: 50%;
@@ -56,21 +87,37 @@ body {
     color: #e8e8e8b0;
 }
 .download-cv{
-    padding: .5rem 1rem;
+    width: 80%;
+    padding: .5rem 2rem;
     border-radius: .3rem;
-    background-color: white;
     font-size: 1.1rem;
     border: none;
     margin: 1rem 0;
-    box-shadow: 0px 0px 20px 0px rgba(255,255,255,0.67);
     transition: all .3s ease;
+
+    background-color: white;
+    color: var(--clr-dark);
+    box-shadow: 0px 0px 20px 0px rgba(255,255,255,0.67);
 }
 .download-cv:hover{
+cursor: pointer;
 scale: 105%;
+background-color: #d1d1f2;
+box-shadow: 0px 0px 20px 0px rgb(133, 119, 255);
+color: rgb(0, 4, 126);
+
+
 }
 
 @media only screen and (max-width: 600px) {
+    header{
+        display: none;
+    }
     .container{
         width: 600px;
+    }
+    .hero-details{
+        width: 80%;
+        line-height: 2.5rem;
     }
   }
