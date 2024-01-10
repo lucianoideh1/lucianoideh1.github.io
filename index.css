@@ -15,9 +15,16 @@
     --clr-dark-neutral: #627264;
     --clr-dark: #223;
     --clr-blue-satur: #0000ff;
+    --accent: 136, 58, 234;
+    --accent-light: 224, 204, 250;
+    --accent-gradient: linear-gradient(
+        45deg,
+        rgb(var(--accent)),
+        rgb(var(--accent-light)) 30%,
+        white 60%
+    );
     ;
 }
-
 ::selection {
     background-color: var(--clr-red);
     background-color: var(--clr-blue-satur);
@@ -34,6 +41,13 @@ input,
 textarea,
 select {
     font: inherit;
+}
+.text-gradient {
+    background-image: var(--accent-gradient);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400%;
+    background-position: 0%;
 }
 
 body {
