@@ -85,10 +85,13 @@ header nav ul li a{
 .hero{
     display: flex;
     height: 500px;
+    margin-bottom: 3rem;
 }
 .hero-img{
     width: 50%;
     overflow: hidden;
+    /* box-shadow: 0px 0px 26px 1px rgba(181,181,181,0.65); */
+
 }
 .hero-details{
     width: 50%;
@@ -122,7 +125,13 @@ color: rgb(0, 4, 126);
 
 
 }
-
+.projects{
+    text-align: center;
+}
+.projects-title{
+    font-size: 2rem;
+    font-weight: 700;
+}
 @media only screen and (max-width: 600px) {
     header{
         display: none;
