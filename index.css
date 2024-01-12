@@ -8,13 +8,12 @@
 }
 
 :root {
-    --clr-light: #e4e6dc;
-    --clr-light: aliceblue;
+    --clr-light: #E8E8E8;
     --clr-light:#ffffff;
     --clr-red: #b3001b;
-    --clr-dark-neutral: #627264;
-    --clr-dark: #223;
+    --clr-dark:#151515;
     --clr-blue-satur: #0000ff;
+
     --accent: 136, 58, 234;
     --accent-light: 224, 204, 250;
     --accent-gradient: linear-gradient(
@@ -59,7 +58,7 @@ header{
     padding: .5rem;
 }
 header nav{
-    width: 80%;
+    max-width: 80%;
     margin: 0 auto;
     display: flex;
 }
@@ -79,19 +78,18 @@ header nav ul li a{
 }
 .container{
     padding: 2rem;
-    width: 1280px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 .hero{
-    display: flex;
-    height: 500px;
+    /* display: flex; */
+    min-height: 500px;
     margin-bottom: 3rem;
 }
 .hero-img{
-    width: 50%;
+    /* width: 60%; */
     overflow: hidden;
-    /* box-shadow: 0px 0px 26px 1px rgba(181,181,181,0.65); */
-
+    flex-grow: 1;
 }
 .hero-details{
     width: 50%;
@@ -136,11 +134,7 @@ color: rgb(0, 4, 126);
 ul li{
     list-style: none;
 }
-.projects-list{
-    display: flex;
-    padding: 1rem;
-    justify-content: space-between;
-}
+
 .card{
     background-color: rgb(42, 42, 45);
     width: 16rem;
