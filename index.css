@@ -68,6 +68,17 @@ ul li a{
 ul li{
     list-style-type: none;
 }
+.light{
+    background-color: rgb(149, 0, 255);
+    width: 200px;
+    height: 200px;
+    filter: blur(200px);
+    
+    position: absolute;
+    z-index: -1;
+    top: -100px;
+    left: 47%;
+  }
 .hello-text{
     font-weight: 600;
     margin-bottom: 1rem;
