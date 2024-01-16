@@ -79,6 +79,9 @@ ul li{
     top: -100px;
     left: 47%;
   }
+.hero{
+    margin-bottom: 2rem;
+}
 .hello-text{
     font-weight: 600;
     margin-bottom: 1rem;
@@ -107,7 +110,7 @@ ul li{
 .download-cv{
     border: none;
     border-radius: .3rem;
-    padding: .5rem 2rem;
+    padding: 1rem 2rem;
     margin-bottom: 1rem;
     min-width: 100%;
 
@@ -129,10 +132,19 @@ color: rgb(0, 4, 126);
 .location,.hero-description{
     margin-bottom:1rem;
 }
+
+.projects{
+    text-align: center;
+}
+.projects-title{
+    font-size: 2rem;
+    font-weight: 700;
+}
 @media (min-width:600px) {
     header{
         display: block;
         font-size: 1rem;
+        margin-bottom: 2rem;
     }
     header nav{
         width: 80%;
@@ -146,9 +158,15 @@ color: rgb(0, 4, 126);
         gap: 1rem;
         margin-left: auto;
     }
+    .icon-placeholder{
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        background-color: rgb(61, 47, 69);
+    }
     .hello-text{
         font-size: 1.4rem;
-        margin-bottom: auto;
+        margin-top: auto;
     }
     .name{
         font-size: 2.5rem;
