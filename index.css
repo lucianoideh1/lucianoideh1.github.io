@@ -141,6 +141,35 @@ color: rgb(0, 4, 126);
     font-size: 2rem;
     font-weight: 700;
 }
+.buttons{
+    display: flex;
+    gap: 1rem;
+}
+
+.linkedin,.github{
+list-style: none;
+color: white;
+padding: .3rem 1.2rem;
+border-radius: .6rem;
+}
+.linkedin a,.github a {
+    text-decoration: none;
+    color: white;
+}
+.linkedin{
+    background-color: #4f6fff71;
+    outline: 1px solid white;
+}
+.github{
+    background-color: #75757585;
+    outline: 1px solid white;
+}
+/* 
+.download-cv:disabled {
+    cursor: not-allowed;
+    pointer-events: all !important;
+  } */
+
 @media (min-width:600px) {
     header{
         display: block;
