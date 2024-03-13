@@ -12,6 +12,7 @@
     --clr-red: #b3001b;
     --clr-dark:#151515;
     --clr-blue-satur: #0000ff;
+    --clr-blue-satur: #0000ff97;
 
     --accent: 136, 58, 234;
     --accent-light: 224, 204, 250;
@@ -98,6 +99,7 @@ ul li{
 }
 
 .hero-description{
+    max-width: 70ch;
     color: #f5efef;
     line-height: 1.8rem;
     font-size: 1rem;
@@ -179,6 +181,10 @@ border-radius: .6rem;
     header nav{
         width: 80%;
         margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(21, 21, 21) 100%);
+
     }
     header nav, nav ul{
         display: flex;
@@ -186,7 +192,6 @@ border-radius: .6rem;
     }
     header nav ul{
         gap: 1rem;
-        margin-left: auto;
     }
     .icon-placeholder{
         width: 3rem;
