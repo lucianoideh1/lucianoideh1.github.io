@@ -216,6 +216,7 @@ border-radius: .6rem;
         display: flex;
         flex-direction: row-reverse;
         padding: 1rem;
+        margin-bottom: 7rem;
     }
     .hero-details{
         padding: 1rem;
@@ -230,5 +231,30 @@ border-radius: .6rem;
         margin-right:  auto;
 
         
+    }
+    .projects-section,.projects-title{
+        text-align: center;
+    }
+    .project{
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+        align-items: center;
+    }
+    .projects-title{
+        padding: 2rem;
+        margin-bottom: 3rem;
+    }
+    .projects li {
+        border: 1px solid white;
+        border-radius: .3rem;
+        padding: 1rem;
+    }
+    .project-title{
+        margin-bottom: 1rem;
+    }
+    .project-description{
+        font-size: 1rem;
+        max-width: 40ch;
     }
 }
