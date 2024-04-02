@@ -160,11 +160,20 @@ border-radius: .6rem;
 }
 .linkedin{
     background-color: #4f6fff71;
-    outline: 1px solid white;
+    outline: 2px solid rgb(170, 171, 255);
+    transition: all .250s ease-in-out;
 }
 .github{
     background-color: #75757585;
-    outline: 1px solid white;
+    outline: 2px solid rgb(148, 148, 148);
+    transition: all .250s ease-in-out;
+
+}
+.linkedin:hover{
+    background-color: #394fb071;
+}
+.github:hover{
+    background-color: #35353585;
 }
 .projects-section,.projects-title{
     text-align: center;
@@ -201,8 +210,20 @@ border-radius: .6rem;
     max-width: 40ch;
     text-wrap: balance; 
     line-height: 1.8rem;
+    margin-bottom: 1rem;
 }
-
+.project-img a img{
+    transition: all .250s ease-in-out;
+}
+.project-img a img:hover {
+    opacity: .9;
+}
+.project article a{
+    color: rgb(237, 237, 237);
+}
+.project article a:hover{
+    color: rgb(213, 212, 212);
+}
 @media (min-width:600px) {
     header{
         display: block;
