@@ -18,7 +18,7 @@
     --accent-light: 224, 204, 250;
     --accent-gradient: linear-gradient(
         45deg,
-        rgb(0, 162, 255)    ,
+        rgb(255, 238, 0)    ,
         rgb(var(--accent-light)) 30%,
         white 60%
     );
@@ -71,9 +71,12 @@ ul li{
 }
 .light{
     background-color: rgb(0, 229, 255);
+    background-color: rgb(255, 247, 0);
     width: 200px;
     height: 200px;
     filter: blur(200px);
+    padding: 0;
+    margin: 0;
     
     position: absolute;
     z-index: -1;
@@ -240,7 +243,7 @@ border-radius: .6rem;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
-        background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(21, 21, 21) 100%);
+        /* background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(21, 21, 21) 100%); */
 
     }
     header nav, nav ul{
@@ -254,7 +257,7 @@ border-radius: .6rem;
         width: 3rem;
         height: 3rem;
         border-radius: 50%;
-        background-color: rgb(47, 61, 69);
+        background-color: rgb(77, 72, 54);
     }
     .hello-text{
         font-size: 1.4rem;
