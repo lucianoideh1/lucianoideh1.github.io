@@ -201,16 +201,23 @@ border-radius: .6rem;
     margin-bottom: 3rem;
 }
 .projects li {
-    border: 1px solid white;
+    outline: 1px solid white;
     border-radius: .3rem;
     padding: 1rem;
     width: fit-content;
     margin: 0 auto;
+    transition: all 500ms ease-in;
+}
+.projects li:hover{
+    outline: 1px solid yellow;
 }
 .project-title{
     margin-bottom: 1rem;
     font-size: 1.4rem;
     font-weight: 600;
+}
+.see-code:hover{
+    text-decoration: underline;
 }
 .project-description{
     color: rgb(207, 207, 207);
