@@ -178,7 +178,7 @@ border-radius: .6rem;
 .github:hover{
     background-color: #35353585;
 }
-.projects-section,.projects-title{
+.projects,.projects-title{
     text-align: center;
 }
 .project{
@@ -188,7 +188,7 @@ border-radius: .6rem;
     align-items: center;
     flex-wrap: wrap;
 }
-.projects {
+.projects-list {
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -200,7 +200,7 @@ border-radius: .6rem;
     padding: 2rem;
     margin-bottom: 3rem;
 }
-.projects li {
+.projects-list li {
     outline: 1px solid white;
     border-radius: .3rem;
     padding: 1rem;
@@ -208,7 +208,7 @@ border-radius: .6rem;
     margin: 0 auto;
     transition: all 500ms ease-in;
 }
-.projects li:hover{
+.projects-list li:hover{
     outline: 1px solid yellow;
 }
 .project-title{
