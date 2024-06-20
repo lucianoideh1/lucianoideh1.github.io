@@ -278,7 +278,7 @@ body.dark-theme .github:hover{
     margin-bottom: 3rem;
 }
 .projects-list li {
-    box-shadow: 0px 0px 17px 2px rgb(125, 125, 125);
+    box-shadow: 0px 0px 17px 2px rgb(168, 168, 168);
     border-radius: .3rem;
     padding: 1rem;
     width: fit-content;
@@ -288,6 +288,7 @@ body.dark-theme .github:hover{
 body.dark-theme .projects-list li{
     background-color: #2e2e2e;
     color: #ddd;
+    box-shadow: none;
 }
 .projects-list li:hover{
     box-shadow: 0px 0px 14px 5px rgb(64, 159, 227);
