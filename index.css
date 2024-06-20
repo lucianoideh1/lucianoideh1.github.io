@@ -144,6 +144,7 @@ body.dark-theme .light{
 .hero-img,.hero-img img{
     max-width: 100%;
     margin-bottom: .5rem;
+    border-radius: .5rem;
 }
 body.dark-theme .hero-img img{
     filter: brightness(.8) contrast(1.1);
@@ -203,14 +204,19 @@ color: rgb(0, 4, 126);
 }
 .buttons{
     display: flex;
+    align-items: center;
     gap: 1rem;
 }
 
 .linkedin,.github{
 list-style: none;
 color: white;
-padding: .3rem 1.2rem;
-border-radius: .6rem;
+padding: 1rem 1.2rem;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: .2rem;
+max-height: 2.5rem;
 }
 .linkedin a,.github a {
     text-decoration: none;
