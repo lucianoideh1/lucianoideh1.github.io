@@ -282,12 +282,13 @@ body.dark-theme .github:hover{
     margin-bottom: 3rem;
 }
 .projects-list li {
-    box-shadow: 0px 0px 17px 2px rgb(168, 168, 168);
+    /* box-shadow: 0px 0px 17px 2px rgb(168, 168, 168); */
     border-radius: .3rem;
     padding: 1rem;
     width: fit-content;
     margin: 0 auto;
-    transition: all 500ms ease-in;
+    transition: box-shadow 200ms ease-in;
+    background-color: #dddddd;
 }
 body.dark-theme .projects-list li{
     background-color: #2e2e2e;
@@ -295,11 +296,10 @@ body.dark-theme .projects-list li{
     box-shadow: none;
 }
 .projects-list li:hover{
-    box-shadow: 0px 0px 14px 5px rgb(64, 159, 227);
+    box-shadow: 9px 10px 0px 0px rgb(94, 155, 226);
 }
 body.dark-theme .projects-list li:hover{
-    box-shadow: 0px 0px 14px 5px rgb(163, 163, 80);
-
+    box-shadow: 9px 10px 0px 0px rgba(238,245,142,1);
 }
 .project-title{
     margin-bottom: 1rem;
