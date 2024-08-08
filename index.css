@@ -404,7 +404,7 @@ body.dark-theme .white-text{
     header{
         display: block;
         font-size: 1rem;
-        margin-bottom: 2rem;
+        margin-bottom: 6rem;
     }
     header nav{
         width: 80%;
@@ -445,19 +445,20 @@ body.dark-theme .white-text{
     }
     .hero{
         display: flex;
-        flex-direction: row-reverse;
+        /* flex-direction: row-reverse; */
         padding: 1rem;
         margin-bottom: 7rem;
         align-items: center;
+        justify-content: center;
     }
     .hero-details{
         padding: 1rem;
         display: flex;
         flex-direction: column;
     }
-    .hero-img{
+    /* .hero-img{
        min-width: 40%;
-    }
+    } */
     .download-cv{
         min-width: 50%;
         margin-right:  auto;
