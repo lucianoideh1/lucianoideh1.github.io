@@ -59,6 +59,9 @@ body{
     color: #121212;
     
 }
+section{
+    margin-bottom: 2.2rem;
+}
 
 body.dark-theme{
     color: var(--clr-light);
@@ -358,6 +361,32 @@ body.dark-theme .btn-toggle:hover{
     background-color: rgb(134, 134, 134);
 }
 
+#about{
+    text-align: center;
+    padding: 1rem;
+}
+#about h1{
+margin-bottom: 3rem;
+}
+#about ul{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.6rem;
+}
+#about ul li{
+    max-width: 30ch;
+    list-style:inside;
+}
+.white-text{
+    color: #1b1b1b;
+    font-weight: 600;
+}
+body.dark-theme .white-text{
+    color: #eee;
+    font-weight: 600;
+}
 @media (min-width:600px) {
     .mobile-navbar, .mobile-btn-toggle{
         display: none;
