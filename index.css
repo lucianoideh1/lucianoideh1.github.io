@@ -277,8 +277,10 @@ max-height: 2.5rem;
 
 }
 body.dark-theme .linkedin{
-    background-color: #4f6fff71;
+    background-color: #2b52ffef;
     box-shadow: none;
+    /* border:1px solid black;
+    outline:1px solid white; */
 }
 .github{
     background-color: #363636d3;
@@ -287,20 +289,24 @@ body.dark-theme .linkedin{
     box-shadow: 5px 4px 5px 0px rgba(97,97,97,0.55);
 }
 body.dark-theme .github{
-    background-color: #757575d6;
+    background-color: #ffffff;
     box-shadow: none;
+}
+body.dark-theme .github a{
+    color:#121212;
 }
 .linkedin:hover{
     background-color: #394fb0e2;
 }
 body.dark-theme .linkedin:hover{
-    background-color: #394fb071;
+    background-color: #394fb0cb;
 }
 .github:hover{
     background-color: #353535df;
 }
 body.dark-theme .github:hover{
-    background-color: #26262685;
+    background-color: #86868685;
+    color: white;
 }
 .projects,.projects-title{
     text-align: center;
