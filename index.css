@@ -88,7 +88,7 @@ body::before{
 body.dark-theme::before{
     background: url(/imgs/grain/dark\ grain\ 3.svg);
     position: absolute;
-    z-index: 999;
+    z-index: -999;
     left: 0;
     top: 0;
     content: "";
@@ -141,18 +141,23 @@ ul li{
 .light{
     /* background-color: rgb(0, 110, 255); */
     background: rgb(23,55,255);
-    background: radial-gradient(circle, rgba(23,55,255,1) 0%, rgba(38,255,242,1) 100%);
+    background: radial-gradient(circle, rgba(23,55,255,1) 0%, rgb(38, 255, 56) 100%);
+    background: radial-gradient(circle, rgb(38, 255, 56) 0%, rgba(23,55,255,1) 100%);
 
-    width: 200px;
-    height: 200px;
-    filter: blur(160px);
+    width: 700px;
+    height: 500px;
+    filter: blur(100px);
     padding: 0;
     margin: 0;
     
     position: absolute;
     z-index: -1;
-    top: -100px;
-    left: 47%;
+    top: -450px;
+    left: calc(50% - 300px);
+    /* margin-left: auto;
+    margin-right: auto; */
+
+    border-radius: 50%;
   }
 
 body.dark-theme .light{
@@ -169,6 +174,11 @@ body.dark-theme .light{
 }
 .name{
     font-size: 1.4rem;
+    color: rgb(31, 31, 31);
+}
+body.dark-theme .name{
+    font-size: 2.4rem;
+    color: white;
 }
 .role{
     font-size: 1.3rem;
