@@ -53,11 +53,17 @@ select {
 body.dark-theme .text-gradient {
     background-image: var(--accent-gradient-dark);
 }
+body,html{
+    height: 100%;
+    overflow-x: hidden;
+
+}
 body{
     font-size: 1.225rem;
     background-color: #eee;
     color: #121212;
     
+
 }
 section{
     margin-bottom: 2.2rem;
@@ -66,6 +72,30 @@ section{
 body.dark-theme{
     color: var(--clr-light);
     background-color: var(--clr-dark);
+}
+body::before{
+    background: url(imgs/grain/Rectangle\ 22.svg);
+    position: absolute;
+    z-index: -999;
+    left: 0;
+    top: 0;
+    content: "";
+    height: 100%;
+    width: 100%;
+    opacity: 50%;
+    pointer-events: none;
+}
+body.dark-theme::before{
+    background: url(/imgs/grain/dark\ grain\ 3.svg);
+    position: absolute;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    content: "";
+    height: 100%;
+    width: 100%;
+    opacity: 30%;
+    pointer-events: none;
 }
 .container{
     max-width: 80%;
