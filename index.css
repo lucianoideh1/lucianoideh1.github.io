@@ -80,8 +80,8 @@ body::before{
     left: 0;
     top: 0;
     content: "";
-    height: 100%;
-    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
     opacity: 50%;
     pointer-events: none;
 }
@@ -439,8 +439,26 @@ body.dark-theme .white-text{
 #contact h1{
     margin-bottom: 2rem;
 }
-#contact a{
-    color: #4984f4;
+
+.linkedin-tag{
+    background-color: #1d5cd1;
+    color: white;
+    border: none;
+    padding: .3rem 1.2rem;
+}
+.linkedin-tag a{
+    color:white ;
+    text-decoration: none;
+}
+
+@media (max-width:750px){
+    body::before{
+        background: none;
+    }
+    body.dark-theme::before {
+        background: none;
+
+    }
 }
 @media (min-width:600px) {
     .mobile-navbar, .mobile-btn-toggle{
@@ -511,5 +529,23 @@ body.dark-theme .white-text{
 
         
     }
-  
+    #about {
+        margin: 0 auto;
+        max-width: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  #about ul {
+        /* margin: 0 auto; */
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+  }
+  #about ul li{
+    line-height: 2rem;
+  }
+
 }
