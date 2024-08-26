@@ -62,15 +62,13 @@ body{
     font-size: 1.225rem;
     background-color: #eee;
     color: #121212;
-    
-
 }
 section{
     margin-bottom: 2.2rem;
 }
 
 body.dark-theme{
-    color: var(--clr-light);
+    color: white;
     background-color: var(--clr-dark);
 }
 body::before{
@@ -183,19 +181,10 @@ body.dark-theme .name{
 .role{
     font-size: 1.3rem;
 }
-.hero-img{
-    background-color: #222;
-    background:linear-gradient(-70deg,#222,#ccc,#222) ;
-    padding: 1rem;
-}
-.hero-img,.hero-img img{
-    max-width: 100%;
-    /* margin-bottom: .5rem; */
-    border-radius: .5rem;
-}
-body.dark-theme .hero-img img{
+
+/* body.dark-theme .hero-img img{
     filter: brightness(.8) contrast(1.1);
-}
+} */
 
 .hero-description{
     max-width: 70ch;
@@ -214,7 +203,7 @@ body.dark-theme .hero-description{
     margin-bottom: 1rem;
 }
 body.dark-theme{
-    color: #d0caca;
+    color: #f2f2f2;
 }
 .download-cv{
     border: none;
@@ -331,7 +320,6 @@ body.dark-theme .github:hover{
     margin-bottom: 3rem;
 }
 .projects-list li {
-    /* box-shadow: 0px 0px 17px 2px rgb(168, 168, 168); */
     border-radius: .3rem;
     padding: 1rem;
     width: fit-content;
