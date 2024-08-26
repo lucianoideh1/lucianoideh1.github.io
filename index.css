@@ -458,6 +458,14 @@ body.dark-theme .expressjs{
     background-color: rgb(111, 226, 255);
     color:#222;
 }
+.typescript{
+    background-color: rgb(99, 200, 255);
+    color: #191919;
+}
+body.dark-theme .typescript{
+    background-color: rgb(40, 152, 226);
+    color: rgb(241, 241, 241);
+}
 @media (max-width:750px){
     body::before{
         background: none;
