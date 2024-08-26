@@ -438,7 +438,26 @@ body.dark-theme .white-text{
     color:white ;
     text-decoration: none;
 }
-
+.javascript{
+    background-color: rgb(255, 255, 111);
+    color:#222;
+}
+.nodejs{
+    background-color: rgb(173, 255, 111);
+    color:#222;
+}
+.expressjs{
+    background-color: rgb(20, 20, 20);
+    color:#f6f6f6;
+}
+body.dark-theme .expressjs{
+    background-color: rgb(255, 255, 255);
+    color:#222;
+}
+.reactjs{
+    background-color: rgb(111, 226, 255);
+    color:#222;
+}
 @media (max-width:750px){
     body::before{
         background: none;
