@@ -506,9 +506,12 @@ body.dark-theme .typescript{
         border-radius: 50%;
         background-color: rgb(88, 164, 199);
     }
-    body.dark-theme .icon-placeholder{
-        background-color: rgb(77, 72, 54);
+    header nav .logo {
+        max-width: 3rem;
+        max-height: 3rem;
     }
+  
+
     .hello-text{
         font-size: 1.4rem;
         /* margin-top: auto; */
