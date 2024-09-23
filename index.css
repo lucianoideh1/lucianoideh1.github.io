@@ -432,10 +432,8 @@ body.dark-theme .white-text{
     background-color: #1d5cd1;
     color: white;
     border: none;
-    padding: .3rem 1.2rem;
-}
-.linkedin-tag a{
     color:white ;
+    padding: .3rem 1.5rem;
     text-decoration: none;
 }
 .javascript{
