@@ -1,10 +1,31 @@
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 300;
+    src: url('./fonts/roboto-light-webfont.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 400;
+    src: url('./fonts/roboto-regular-webfont.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 600;
+    src: url('./fonts/roboto-medium-webfont.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-weight: 700;
+    src: url('./fonts/roboto-black-webfont.woff2') format('woff2');
+}
+
 *,
 *::after,
 *::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Inter", sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 :root {
@@ -62,6 +83,8 @@ body{
     font-size: 1.225rem;
     background-color: #eee;
     color: #121212;
+    font-family: 'Roboto';
+    font-weight: 400;
 }
 section{
     margin-bottom: 2.2rem;
@@ -167,7 +190,7 @@ body.dark-theme .light{
     margin-bottom: 2rem;
 }
 .hello-text{
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 1rem;
 }
 .name{
@@ -344,7 +367,7 @@ body.dark-theme .projects-list li:hover{
 .project-title{
     margin-bottom: 1rem;
     font-size: 1.4rem;
-    font-weight: 600;
+    font-weight: 700;
 }
 .see-code:hover{
     text-decoration: underline;
