@@ -543,6 +543,9 @@ body.dark-theme .typescript{
     .name{
         font-size: 2.5rem;
     }
+    .handle{
+        font-size: 1.25rem;
+    }
     .role{
         font-size: 1.8rem;
     }
