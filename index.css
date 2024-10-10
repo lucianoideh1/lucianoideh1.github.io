@@ -377,14 +377,14 @@ body.dark-theme .projects-list li:hover{
 }
 .project-description{
     color: rgb(31, 31, 31);
-    font-size: 1rem;
+    font-size: 1.1rem;
     max-width: 40ch;
     text-wrap: balance; 
     line-height: 1.8rem;
     margin-bottom: 1rem;
 }
 body.dark-theme .project-description{
-    color: rgb(207, 207, 207);
+    color: rgb(212, 212, 212);
 }
 .project-img a img{
     transition: all .250s ease-in-out;
