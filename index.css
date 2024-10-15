@@ -259,7 +259,7 @@ padding: 1rem 1.2rem;
 display: flex;
 align-items: center;
 justify-content: center;
-border-radius: .2rem;
+border-radius: 1rem;
 max-height: 2.5rem;
 }
 .linkedin a,.github a {
@@ -293,13 +293,13 @@ body.dark-theme .github a{
     color:#121212;
 }
 .linkedin:hover{
-    background-color: #394fb0e2;
+    background-color: #394fb0;
 }
 body.dark-theme .linkedin:hover{
-    background-color: #394fb0cb;
+    background-color: #141e4d;
 }
 .github:hover{
-    background-color: #353535df;
+    background-color: #131313;
 }
 body.dark-theme .github:hover{
     background-color: #86868685;
@@ -443,6 +443,7 @@ body.dark-theme .white-text{
     color:white ;
     padding: .3rem 1.5rem;
     text-decoration: none;
+    border-radius: 1rem;
 }
 .javascript{
     background-color: rgb(255, 255, 111);
