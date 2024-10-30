@@ -123,9 +123,15 @@ body.dark-theme::before{
     padding: 1rem;
     overflow: hidden;
     margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 header{
     display: none;
+    max-width: 800px;
+    margin: auto;
 }
 .mobile-navbar{
     padding: 1rem;
@@ -241,6 +247,8 @@ body.dark-theme{
 
 .projects{
     text-align: center;
+    max-width: 750px;
+    margin: 0 auto;
 }
 .projects-title{
     font-size: 2rem;
