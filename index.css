@@ -355,15 +355,14 @@ body.dark-theme .projects-list li:hover{
     text-decoration: underline;
 }
 .project-description{
-    color: rgb(31, 31, 31);
-    font-size: 1.1rem;
+    color: rgb(20, 20, 20);
     max-width: 40ch;
     text-wrap: balance; 
     line-height: 1.8rem;
     margin-bottom: 1rem;
 }
 body.dark-theme .project-description{
-    color: rgb(212, 212, 212);
+    color: rgb(238, 238, 238);
 }
 .project-img a img{
     transition: all .250s ease-in-out;
