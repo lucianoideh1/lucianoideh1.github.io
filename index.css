@@ -375,9 +375,12 @@ body.dark-theme .project-description{
 }
 .project-img a img{
     transition: all .250s ease-in-out;
+    opacity: .9; 
+    filter: brightness(.9);
 }
 .project-img a img:hover {
-    opacity: .9;
+    opacity: 1; 
+    filter: brightness(1.15);
 }
 .project article a{
     color: #244462;
