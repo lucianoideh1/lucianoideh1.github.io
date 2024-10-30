@@ -437,13 +437,18 @@ body.dark-theme .white-text{
 }
 
 .linkedin-tag{
-    background-color: #1d5cd1;
-    color: white;
-    border: none;
-    color:white ;
-    padding: .3rem 1.5rem;
+    color: rgb(67, 155, 255);
     text-decoration: none;
-    border-radius: 1rem;
+}
+.linkedin-tag:hover{
+    color: rgb(44, 124, 216);
+}
+body.dark-theme .linkedin-tag{
+    color: rgb(130, 188, 255);
+    text-decoration: none;
+}
+body.dark-theme .linkedin-tag:hover{
+    color: rgb(99, 147, 202);
 }
 .javascript{
     background-color: rgb(255, 255, 111);
@@ -473,6 +478,7 @@ body.dark-theme .typescript{
     background-color: rgb(40, 152, 226);
     color: rgb(241, 241, 241);
 }
+
 @media (max-width:750px){
     body::before{
         background: none;
