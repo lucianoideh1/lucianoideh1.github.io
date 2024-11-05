@@ -434,11 +434,11 @@ margin-bottom: 3rem;
 }
 .white-text{
     color: #1b1b1b;
-    font-weight: 600;
+    font-weight: 700;
 }
 body.dark-theme .white-text{
     color: #eee;
-    font-weight: 600;
+    font-weight: 700;
 }
 #contact {
     text-align: center;
