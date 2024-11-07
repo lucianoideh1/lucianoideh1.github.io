@@ -262,9 +262,14 @@ body.dark-theme{
 }
 
 .linkedin, .github{
-    border: 2px solid #2b2b2b;
+    outline: 2px solid #222222 ;
     padding: .3rem 1.2rem;
     border-radius: 2rem;
+    box-shadow: #222222 4px 4px 0 0;
+
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
 }
 
 .linkedin a, .github a{
@@ -273,7 +278,9 @@ body.dark-theme{
 
 body.dark-theme .linkedin, 
 body.dark-theme .github {
-    border: 2px solid white;
+    outline: 2px solid #e7e7e7;
+    box-shadow: #e7e7e7 4px 4px 0 0;
+
 } 
 .projects,.projects-title{
     text-align: center;
