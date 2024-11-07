@@ -139,25 +139,23 @@ header{
 }
 .mobile-btn-toggle{
     margin-left: auto;
-    background-color: #ffffff;
-    color: #dbdbdb;
+    background-color: #2e2e2e;
+    color: var(--clr-light);
     border:none;
-    padding: .5rem;
-    border-radius: 1rem;
-    font-weight: 700;
-    color: #3f3f3f;
+    border-radius: .3rem;
+    padding: .5rem 1.2rem;
 
 }
 body.dark-theme .mobile-btn-toggle{
     background-color: #242424;
     color: var(--clr-light);
-    font-weight: 700;
-
+    background-color: rgb(218, 218, 218);
+    color: rgb(29, 29, 29);
 }
 ul li a{
     text-decoration: none;
     color:#222;
-    font-weight: 600;
+    font-weight: 500;
 }
 body.dark-theme ul li a{
     color:var(--clr-light);
@@ -168,7 +166,6 @@ ul li{
     list-style-type: none;
 }
 .light{
-    /* background-color: rgb(0, 110, 255); */
     background: rgb(23,55,255);
     background: radial-gradient(circle, rgba(23,55,255,1) 0%, rgb(38, 255, 56) 100%);
     background: radial-gradient(circle, rgb(38, 255, 56) 0%, rgba(23,55,255,1) 100%);
@@ -280,7 +277,6 @@ max-height: 2.5rem;
 }
 .linkedin{
     background-color: #2b51f7d4;
-    /* outline: 2px solid rgb(170, 171, 255); */
     transition: all .250s ease-in-out;
     box-shadow: 5px 4px 5px 0px rgba(97,97,97,0.55);
 
@@ -288,15 +284,13 @@ max-height: 2.5rem;
 body.dark-theme .linkedin{
     background-color: #2b52ffef;
     box-shadow: none;
-    /* border:1px solid black;
-    outline:1px solid white; */
+
 }
 body.dark-theme .linkedin a {
     color: white;
 }
 .github{
     background-color: #363636d3;
-    /* outline: 2px solid rgb(148, 148, 148); */
     transition: all .250s ease-in-out;
     box-shadow: 5px 4px 5px 0px rgba(97,97,97,0.55);
 }
@@ -401,7 +395,8 @@ body.dark-theme .project article a{
 
 .btn-toggle{
     border: none;
-    background-color: #656565;
+    background-color: #2e2e2e;
+
     color: var(--clr-light);
     padding: .1rem 1.2rem;
     border-radius: .2rem;
@@ -410,12 +405,11 @@ body.dark-theme .project article a{
 }
 .btn-toggle:hover{
     cursor: pointer;
-    background-color: #2e2e2e;
-
+    background-color: #656565;
 }
 body.dark-theme .btn-toggle{
-    background-color: rgb(74, 74, 74);
-    color: white;
+    background-color: rgb(218, 218, 218);
+    color: rgb(29, 29, 29);
 }
 body.dark-theme .btn-toggle:hover{
     background-color: rgb(134, 134, 134);
