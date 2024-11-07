@@ -261,59 +261,20 @@ body.dark-theme{
     gap: 1rem;
 }
 
-.linkedin,.github{
-list-style: none;
-color: white;
-padding: 1rem 1.2rem;
-display: flex;
-align-items: center;
-justify-content: center;
-border-radius: 1rem;
-max-height: 2.5rem;
+.linkedin, .github{
+    border: 2px solid #2b2b2b;
+    padding: .3rem 1.2rem;
+    border-radius: 2rem;
 }
-.linkedin a,.github a {
-    text-decoration: none;
-    color: white;
-}
-.linkedin{
-    background-color: #2b51f7d4;
-    transition: all .250s ease-in-out;
-    box-shadow: 5px 4px 5px 0px rgba(97,97,97,0.55);
 
+.linkedin a, .github a{
+    font-weight: 600;
 }
-body.dark-theme .linkedin{
-    background-color: #2b52ffef;
-    box-shadow: none;
 
-}
-body.dark-theme .linkedin a {
-    color: white;
-}
-.github{
-    background-color: #363636d3;
-    transition: all .250s ease-in-out;
-    box-shadow: 5px 4px 5px 0px rgba(97,97,97,0.55);
-}
-body.dark-theme .github{
-    background-color: #ffffff;
-    box-shadow: none;
-}
-body.dark-theme .github a{
-    color:#121212;
-}
-.linkedin:hover{
-    background-color: #394fb0;
-}
-body.dark-theme .linkedin:hover{
-    background-color: #141e4d;
-}
-.github:hover{
-    background-color: #131313;
-}
-body.dark-theme .github:hover{
-    background-color: #86868685;
-    color: white;
-}
+body.dark-theme .linkedin, 
+body.dark-theme .github {
+    border: 2px solid white;
+} 
 .projects,.projects-title{
     text-align: center;
 }
