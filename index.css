@@ -155,11 +155,11 @@ body.dark-theme .mobile-btn-toggle{
 ul li a{
     text-decoration: none;
     color:#222;
-    font-weight: 500;
+    font-weight: 600;
 }
 body.dark-theme ul li a{
     color:var(--clr-light);
-    font-weight: 500;
+    font-weight: 600;
 
 }
 ul li{
@@ -204,9 +204,7 @@ body.dark-theme .light{
     font-size: 1.4rem;
     color: rgb(31, 31, 31);
 }
-.handle{
-    font-size: 1.1rem;
-}
+
 body.dark-theme .name{
     font-size: 1.4rem;
     color: white;
@@ -282,7 +280,7 @@ body.dark-theme{
 body.dark-theme .linkedin, 
 body.dark-theme .github {
     color: white;
-    outline: 2px solid #e7e7e7;
+    outline: 2px solid #e7e7e7; 
     box-shadow: #e7e7e7 4px 4px 0 0;
 
 } 
@@ -594,7 +592,7 @@ body.dark-theme #skills ul li {
   }
   
 }
-@media (minx-width:800px) {
+@media (min-width:800px) {
     .container {
         max-width: 80%;
         }
