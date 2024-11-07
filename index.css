@@ -256,7 +256,9 @@ body.dark-theme{
     font-weight: 700;
 }
 .buttons{
+    padding: 1rem;
     display: flex;
+    justify-content: end;
     align-items: center;
     gap: 1rem;
 }
@@ -274,13 +276,19 @@ body.dark-theme{
 
 .linkedin a, .github a{
     font-weight: 600;
+    color: #121212;
 }
 
 body.dark-theme .linkedin, 
 body.dark-theme .github {
+    color: white;
     outline: 2px solid #e7e7e7;
     box-shadow: #e7e7e7 4px 4px 0 0;
 
+} 
+body.dark-theme .linkedin a, 
+body.dark-theme .github  a{
+    color: white;
 } 
 .projects,.projects-title{
     text-align: center;
@@ -498,7 +506,6 @@ body.dark-theme #skills ul li {
     }
     .mobile-navbar, .mobile-btn-toggle{
         display: none;
-        /* visibility: hidden; */
     }
     header{
         display: block;
@@ -510,7 +517,6 @@ body.dark-theme #skills ul li {
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
-        /* background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(21, 21, 21) 100%); */
 
     }
     header nav, nav ul{
@@ -549,7 +555,6 @@ body.dark-theme #skills ul li {
     }
     .hero{
         display: flex;
-        /* flex-direction: row-reverse; */
         padding: 1rem;
         margin-bottom: 7rem;
         align-items: center;
