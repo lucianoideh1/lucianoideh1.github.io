@@ -77,7 +77,6 @@ body.dark-theme .text-gradient {
 body,html{
     height: 100%;
     overflow-x: hidden;
-
 }
 body{
     font-size: 1.225rem;
@@ -119,7 +118,7 @@ body.dark-theme::before{
     pointer-events: none;
 }
 .container{
-    max-width: 80%;
+    max-width: 100%;
     padding: 1rem;
     overflow: hidden;
     margin: 0 auto;
@@ -139,17 +138,19 @@ header{
 }
 .mobile-btn-toggle{
     margin-left: auto;
-    background-color: #525252;
+    background-color: #ffffff;
     color: #dbdbdb;
     border:none;
     padding: .5rem;
-    border-radius: .2rem;
+    border-radius: 1rem;
     font-weight: 700;
+    color: #3f3f3f;
+
 }
 body.dark-theme .mobile-btn-toggle{
-    background-color: #4b4b4b;
+    background-color: #242424;
     color: var(--clr-light);
-    font-weight: 500;
+    font-weight: 700;
 
 }
 ul li a{
@@ -193,7 +194,11 @@ body.dark-theme .light{
     background: radial-gradient(circle, rgba(246,255,23,1) 0%, rgba(255,158,38,1) 100%);
 }
 .hero{
+    padding: 1rem;
     margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
 }
 .hello-text{
     font-weight: 700;
@@ -286,6 +291,9 @@ body.dark-theme .linkedin{
     box-shadow: none;
     /* border:1px solid black;
     outline:1px solid white; */
+}
+body.dark-theme .linkedin a {
+    color: white;
 }
 .github{
     background-color: #363636d3;
@@ -619,4 +627,9 @@ body.dark-theme #skills ul li {
     line-height: 2rem;
   }
   
+}
+@media (minx-width:800px) {
+    .container {
+        max-width: 80%;
+        }
 }
