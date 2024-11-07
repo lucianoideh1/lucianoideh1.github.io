@@ -92,6 +92,7 @@ section{
 body.dark-theme{
     color: white;
     background-color: var(--clr-dark);
+    background-color: #171a24;
 }
 body::before{
     background: url(imgs/grain/Rectangle\ 22.svg);
@@ -182,8 +183,6 @@ ul li{
     z-index: -1;
     top: -450px;
     left: calc(50% - 300px);
-    /* margin-left: auto;
-    margin-right: auto; */
 
     border-radius: 50%;
   }
@@ -191,7 +190,7 @@ ul li{
 body.dark-theme .light{
     background-color: rgb(255, 247, 0);
     background: rgb(246,255,23);
-    background: radial-gradient(circle, rgba(246,255,23,1) 0%, rgba(255,158,38,1) 100%);
+    background: radial-gradient(circle, rgb(242, 247, 106) 0%, rgb(255, 184, 98) 100%);
 }
 .hero{
     padding: 1rem;
