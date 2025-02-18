@@ -264,7 +264,18 @@ section{
 .technologies-list{
     display: grid;
     grid-template-columns: repeat(3,100px);
-    gap: .5rem;
+    gap: 1rem;
+}
+.technologies-list li {
+    background-color: rgb(214, 240, 243);
+    outline: 1px solid rgb(132, 192, 203);
+    border-radius: .7rem;
+    padding: .2rem .6rem;
+    list-style: none;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #contact{
     display: flex;
