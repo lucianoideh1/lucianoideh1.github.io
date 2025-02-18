@@ -328,6 +328,18 @@ section{
     #contact {
         min-width: 500px;
     }
+    nav ul li a{
+        /* background-color: rgb(213, 233, 238); */
+        padding:.6rem 1.2rem;
+        border-radius: .2rem;
+        transition: background-color 200ms ease-in;
+    }
+
+    nav ul li a:hover {
+        /* color: rgb(99, 99, 99); */
+        background-color: rgb(211, 216, 217);
+        /* outline: 1px solid grey; */
+    }
 }
 
 @media (min-width: 900px) {
