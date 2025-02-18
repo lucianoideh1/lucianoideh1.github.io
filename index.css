@@ -277,6 +277,10 @@ section{
     align-items: center;
     justify-content: center;
 }
+.technologies-list li:hover {
+    cursor: pointer;
+    background-color: rgb(158, 215, 221);
+}
 #contact{
     display: flex;
     flex-direction: column;
