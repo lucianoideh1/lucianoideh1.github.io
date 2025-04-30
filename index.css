@@ -297,7 +297,7 @@ section{
 }
 .projects-list{
     padding: 1rem;
-    border: 1px solid grey; 
+    /* border: 1px solid grey;  */
     border-radius: .3rem;
 
     display: flex;
@@ -306,7 +306,7 @@ section{
 }
 .projects-list li{
     list-style: none;
-    border: 1px solid grey;
+    border: 1px solid rgba(128, 128, 128, 0.566);
     border-radius: .6rem;
     padding: 1rem;
 }
