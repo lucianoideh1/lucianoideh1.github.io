@@ -75,10 +75,11 @@ body{
       top: 0;
       left: 0;
       width: 100%;
-      background-color: #ffffff; /* Initial white background */
+      background-color: rgba(255, 255, 255, 0.745); /* Initial white background */
       padding: 1rem 2rem;
       transition: all 0.4s ease;
       z-index: 1000;
+      
     }
 
     /* This class will be added via JavaScript when scrolled */
@@ -89,7 +90,7 @@ body{
 
     .navbar-container {
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       align-items: center;
       max-width: 1200px;
       margin: 0 auto;
@@ -109,6 +110,7 @@ body{
 
     .nav-links {
       display: flex;
+      justify-content: space-between;
       list-style: none;
     }
 
@@ -178,6 +180,10 @@ body{
         transition: transform 0.3s ease, background-color 0.4s ease;
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
       }
+
+      .navbar-container {
+      justify-content: space-between;
+    }
 
       .navbar.scrolled .nav-links {
         background-color: #222;
@@ -266,7 +272,7 @@ h2{
     color: white;
 }
 #home{
-
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
