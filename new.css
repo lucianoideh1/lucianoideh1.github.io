@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "Roboto";
+    font-weight: 300;
+    src: url("/assets/fonts/roboto-thin-webfont.woff2") format(".woff2"),
+         url("/assets/fonts/roboto-thin-webfont.woff") format(".woff");
+}
+@font-face {
+    font-family: "Roboto";
+    font-weight: 400;
+    src: url("/assets/fonts/roboto-regular-webfont.woff2") format(".woff2"),
+     url("/assets/fonts/roboto-regular-webfont.woff") format(".woff");
+}
+@font-face {
+    font-family: "Roboto";
+    font-weight: 500;
+    src: url("/assets/fonts/roboto-medium-webfont.woff2") format(".woff2"),
+     url("/assets/fonts/roboto-medium-webfont.woff") format(".woff");
+}
+@font-face {
+    font-family: "Roboto";
+    font-weight: 700;
+    src: url("/assets/fonts/roboto-bold-webfont.woff2") format(".woff2"),
+    url("/assets/fonts/roboto-bold-webfont.woff") format(".woff");
+}
+@font-face {
+    font-family: "Roboto";
+    font-weight: 900;
+    src: url("/assets/fonts/roboto-black-webfont.woff2") format(".woff2"),
+     url("/assets/fonts/roboto-black-webfont.woff") format(".woff");
+}
+
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    position: relative;
+    min-width:0;
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #222222;
+    color:#ddd;
+    overflow-x: hidden;
+}
+header {
+    display: none;
+}
+
+nav ul li a {
+    color: #ccc;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.name-role{
+    margin-bottom: 2rem;
+}
+main {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.placeholder{
+    width: 240px;
+    height: 240px;
+    background-color: #bbb;
+    border-radius: .3rem;
+}
+
+@media (min-width:600px) {
+    header, nav {
+        display: flex; 
+        justify-content: center;
+        padding: .8rem 0;
+    }
+    nav ul {
+        display: flex;
+        gap: 1rem;
+    }
+
+    nav ul li {
+        list-style: none;
+    }
+
+}
+@media (min-width:800px) {
+    main{
+        flex-direction: row;
+        justify-content:center;
+    }
+}
