@@ -106,7 +106,7 @@ main {
   opacity: 0;
   transition: opacity 0.3s ease-in;
   z-index: 0;
-  border-radius: 0.6rem;
+  border-radius: inherit;
 }
 
 .projects-list li .placeholder:hover::before {
@@ -124,6 +124,7 @@ main {
     font-size: 1.3rem;
     color: #444;
     text-transform: capitalize;
+    padding-top: .7rem;
 }
 .projects-list li {
     list-style: none;
@@ -151,5 +152,10 @@ main {
     main{
         flex-direction: row;
         justify-content:center;
+    }
+    #projects ul {
+        display: grid;
+        grid-template-columns:1fr 1fr ;
+        gap: 2rem;
     }
 }
