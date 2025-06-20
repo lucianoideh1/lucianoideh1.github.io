@@ -66,6 +66,7 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+    margin-bottom: 6rem;
 }
 .placeholder{
     width: 240px;
@@ -73,7 +74,63 @@ main {
     background-color: #bbb;
     border-radius: .3rem;
 }
+#projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+#projects h2 {
+    margin-bottom: 2rem;
+}
+.projects-list {
+    display: flex;
+    gap:4rem;
+    flex-direction: column;
+   
+}
+.projects-list li .placeholder {
+  background: #d5d5d5;
+  width: 330px;
+  border-radius: 0.6rem;
+  position: relative;
+  overflow: hidden; 
+  transition: all 0.3s ease-in;
+}
 
+.projects-list li .placeholder::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(#d5d5d5, #3d3d3d);
+  opacity: 0;
+  transition: opacity 0.3s ease-in;
+  z-index: 0;
+  border-radius: 0.6rem;
+}
+
+.projects-list li .placeholder:hover::before {
+  opacity: 1;
+}
+
+.projects-list li .placeholder * {
+  position: relative;
+  z-index: 1; 
+}
+.projects-list li p {
+    position: absolute;
+    top: 0;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: #444;
+    text-transform: capitalize;
+}
+.projects-list li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 @media (min-width:600px) {
     header, nav {
         display: flex; 
