@@ -376,13 +376,14 @@ section{
  font-size: 1.25rem;
  /* color:  #353535; */
 }
+
+ul li {
+    list-style: none;
+}
 .technologies-list{
     display: grid;
     grid-template-columns: repeat(3,100px);
     gap: 1rem;
-}
-ul li {
-    list-style: none;
 }
 .tech-list {
     display: flex;
