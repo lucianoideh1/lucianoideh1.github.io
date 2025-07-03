@@ -206,6 +206,7 @@ main {
 .social-links {
     display: flex;
     gap: 1rem;
+    padding: 1rem .2rem;
 }
 
 .linkedin, .github {
@@ -215,12 +216,22 @@ main {
     width: 120px;
 }
 .linkedin {
-    border: 2px solid hsl(219, 75%, 50%);
-    color: hsl(219, 75%, 50%);
+    border: 2px solid hsl(219, 75%, 75%);
+    color: hsl(219, 67%, 75%);
+    transition: background-color 300ms ease-in;
+}
+.linkedin:hover{
+    cursor: pointer;
+    background-color: hsl(219, 43%, 43%);
 }
 .github {
-    border: 2px solid hsl(0, 0%, 50%);
+    border: 2px solid hsl(0, 0%, 75%);
     color: hsl(0, 0%, 85%);
+    transition: background-color 300ms ease-in;
+}
+.github:hover{
+    cursor: pointer;
+    background-color: hsl(0, 0%, 53%);
 }
 
 @media (min-width:600px) {
