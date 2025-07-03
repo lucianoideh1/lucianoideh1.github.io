@@ -64,6 +64,12 @@ nav ul li a {
 .role{
     font-size: 2rem;
     letter-spacing: -1px;
+
+    background: linear-gradient(90deg, #cc79e3, #4086e2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* Firefox */
+    color: transparent;
 }
 .section-title{
     font-size: 1.8rem;
