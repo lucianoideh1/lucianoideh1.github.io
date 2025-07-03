@@ -68,14 +68,23 @@ nav ul li a {
 .section-title{
     font-size: 1.8rem;
 }
-.name-role{
-    margin-bottom: 2rem;
+.name-role, .qualities{
+    margin-bottom: 1.6rem;
 }
 .qualities{
     display: flex;
     flex-direction: column;
     padding-left: 1rem;
     gap: .5rem;
+}
+.qualities :nth-child(1){
+    color: rgb(158, 91, 177);
+}
+.qualities :nth-child(2){
+    color: rgb(179, 74, 173);
+}
+.qualities :nth-child(3){
+    color: rgb(91, 128, 177);
 }
 main {
     padding: 1rem;
@@ -86,8 +95,8 @@ main {
     margin-bottom: 6rem;
 }
 .placeholder{
-    width: 240px;
-    height: 240px;
+    width: 360px;
+    height: 260px;
     background-color: #bbb;
     border-radius: .3rem;
 }
