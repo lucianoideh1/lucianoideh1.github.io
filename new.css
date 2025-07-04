@@ -94,10 +94,12 @@ main {
     align-items: center;
     gap: 2rem;
     margin-bottom: 6rem;
+
+    position: relative;
 }
 .placeholder{
-    width: 360px;
-    height: 260px;
+    width: 100%;
+    height: calc(100dvh - 80px);
     background-color: #919191;
     border-radius: .3rem;
 }
