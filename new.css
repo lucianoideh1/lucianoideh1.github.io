@@ -82,6 +82,7 @@ nav ul li a {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-bottom: 2rem;
 }
 .name-role, .qualities{
     margin-bottom: 1.6rem;
@@ -127,9 +128,7 @@ main {
     align-items: center;
     margin-bottom: 6rem;
 }
-#projects h2 {
-    margin-bottom: 2rem;
-}
+
 .projects-list {
     display: flex;
     gap:4rem;
