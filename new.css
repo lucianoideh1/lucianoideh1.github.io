@@ -74,6 +74,7 @@ nav ul li a {
 }
 .section-title{
     font-size: 1.8rem;
+    color:#eee;
 }
 .section-header{
     display: flex;
@@ -267,13 +268,16 @@ main {
 
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding: 1rem;
 }
 #about article {
-        line-height: 1.8;
-        display: flex;
-        flex-direction: column;
-        gap: 1.2rem;
+    line-height: 1.8;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+    max-width: 50ch;
 }
 
 .blue-text{
