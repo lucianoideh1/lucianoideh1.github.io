@@ -51,7 +51,9 @@ body{
 header {
     display: none;
 }
-
+a{
+    color: #40a9e2;
+}
 nav ul li a {
     color: #ccc;
     text-decoration: none;
@@ -302,8 +304,12 @@ main {
     background-color: #3d3d3d;
     border-radius: .3rem;
     margin: 0 .5rem 2rem .5rem;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
-
+#contact p {
+    max-width: 40ch;
+}
 @media (min-width:600px) {
     header, nav {
         display: flex; 
