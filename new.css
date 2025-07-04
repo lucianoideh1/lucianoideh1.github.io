@@ -45,7 +45,7 @@ html{
 body{
     font-family: "Roboto", sans-serif;
     background-color: #222222;
-    color:#ddd;
+    color:#cccccc;
     overflow-x: hidden;
 }
 header {
@@ -74,6 +74,11 @@ nav ul li a {
 }
 .section-title{
     font-size: 1.8rem;
+}
+.section-header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 .name-role, .qualities{
     margin-bottom: 1.6rem;
@@ -254,6 +259,16 @@ main {
 .github:hover{
     cursor: pointer;
     background-color: hsl(0, 0%, 53%);
+}
+
+#about{
+    display: flex;
+    gap: 1rem;
+
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    
 }
 
 @media (min-width:600px) {
