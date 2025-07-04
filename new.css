@@ -94,14 +94,23 @@ main {
     align-items: center;
     gap: 2rem;
     margin-bottom: 6rem;
+    height: calc(100dvh - 80px);
 
     position: relative;
+    /* border: 1px solid pink; */
 }
+
 .placeholder{
-    width: 100%;
+    width: 95%;
     height: calc(100dvh - 80px);
-    background-color: #919191;
-    border-radius: .3rem;
+    background:linear-gradient(0deg,  #232222 10%,#7b7b7b);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    position: absolute;
+    z-index: -10;
+    top: 0;
+    transform: translateX(-50%);
+    left: 50%;
 }
 #projects {
     display: flex;
