@@ -134,9 +134,28 @@ main {
     flex-direction: column;
     align-items: center;
     margin-bottom: 6rem;
+    padding: 1rem;
 }
-
-
+.project {
+    display: flex;
+}
+.project img {
+    min-width: 300px;
+}
+#projects li {
+    list-style: none;
+}
+#projects h3 {
+    color: #eee;
+}
+#projects p {
+    max-width: 50ch;
+}
+.projects-list {
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
 #technologies {
     display: flex ;
     flex-direction: column;
@@ -292,9 +311,5 @@ main {
         flex-direction: row;
         justify-content:center;
     }
-    #projects ul {
-        display: grid;
-        grid-template-columns:1fr 1fr ;
-        gap: 1rem;
-    }
+   
 }
