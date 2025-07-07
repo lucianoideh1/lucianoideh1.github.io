@@ -59,20 +59,26 @@ nav ul li a {
     text-decoration: none;
     text-transform: capitalize;
 }
+.name-role {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .name{
-    font-size: 3rem;
+    font-size: 4rem;
     letter-spacing: -1px;
     color: #eeeeee;
-}
-.role{
-    font-size: 2rem;
-    letter-spacing: -1px;
 
-    background: linear-gradient(90deg, #cc79e3, #4086e2);
+      background: linear-gradient(90deg, #cc79e3, #4086e2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text; /* Firefox */
     color: transparent;
+   
+}
+.role{
+    font-size: 2rem;
+    letter-spacing: -1px;
 }
 .section-title{
     font-size: 1.8rem;
