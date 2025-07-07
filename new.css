@@ -77,6 +77,12 @@ nav ul li a {
     color: transparent;
    
 }
+.available{
+    border: 1px solid rgb(99, 224, 77);
+    border-radius: .3rem;
+    color: rgb(147, 220, 147);
+    padding: .25rem .25rem;
+}
 .role{
     font-size: 2rem;
     letter-spacing: -1px;
