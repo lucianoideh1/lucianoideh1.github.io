@@ -230,6 +230,7 @@ main {
 }
 .social-links {
     display: flex;
+    justify-content: center;
     gap: 1rem;
     padding: 1rem .2rem;
 }
