@@ -140,9 +140,19 @@ main {
     display: flex;
 }
 .project img {
-    min-width: 300px;
+    min-width: 330px;
+  
+    transition: transform 300ms ease-out;
+}
+.project-img-container{
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
     border-radius: .3rem;
     border: 1px solid gray;
+}
+.project img:hover {
+    transform: scale(1.05);
 }
 #projects li {
     list-style: none;
