@@ -180,6 +180,18 @@ main {
     color: #fff;
     font-size: 1.1rem;
 }
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+.tags li {
+    border: 1px solid grey;
+    border-radius: .3rem;
+    width: fit-content;
+    padding: .3rem .6rem;
+}
 .project img:hover {
     transform: scale(1.05);
 }
