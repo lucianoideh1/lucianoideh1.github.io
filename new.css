@@ -68,8 +68,9 @@ nav ul li a {
     font-size: 4rem;
     letter-spacing: -1px;
     color: #eeeeee;
+    text-align: center;
 
-      background: linear-gradient(90deg, #d063ef, #5197f3);
+     background: linear-gradient(90deg, #d063ef, #5197f3);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text; /* Firefox */
@@ -97,10 +98,15 @@ nav ul li a {
 .qualities{
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
     padding-left: 1rem;
     gap: .5rem;
 
     color:#eeeeee;
+}
+
+.hero-text{
+    text-align: center;
 }
 
 main {
@@ -114,13 +120,13 @@ main {
     height: calc(100dvh - 80px);
 
     position: relative;
-    /* border: 1px solid pink; */
 }
 
 .placeholder{
     width: 95%;
     height: calc(100dvh - 80px);
     background:linear-gradient(0deg,  #232222 10%,#7b7b7b);
+    background:linear-gradient(0deg,  #232222 10%,#b9a486);
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     position: absolute;
