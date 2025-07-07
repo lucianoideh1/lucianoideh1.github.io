@@ -141,21 +141,26 @@ main {
 }
 .project img {
     min-width: 300px;
+    border-radius: .3rem;
+    border: 1px solid gray;
 }
 #projects li {
     list-style: none;
 }
 #projects h3 {
     color: #eee;
+    margin-bottom: 1rem;
 }
 #projects p {
     max-width: 50ch;
+    line-height: 1.8;
 }
 .projects-list {
     display: flex;
     flex-direction: column;
-    gap:1rem;
+    gap:4rem;
 }
+
 #technologies {
     display: flex ;
     flex-direction: column;
