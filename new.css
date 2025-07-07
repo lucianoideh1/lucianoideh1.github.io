@@ -69,7 +69,7 @@ nav ul li a {
     letter-spacing: -1px;
     color: #eeeeee;
 
-      background: linear-gradient(90deg, #cc79e3, #4086e2);
+      background: linear-gradient(90deg, #d063ef, #5197f3);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text; /* Firefox */
@@ -79,6 +79,7 @@ nav ul li a {
 .role{
     font-size: 2rem;
     letter-spacing: -1px;
+    color: #eee;
 }
 .section-title{
     font-size: 1.8rem;
@@ -135,63 +136,7 @@ main {
     margin-bottom: 6rem;
 }
 
-.projects-list {
-    display: flex;
-    gap:4rem;
-    flex-direction: column;
-   
-}
-.projects-list li .placeholder {
-  background: #d5d5d5;
-  width: 330px;
-  border-radius: 0.6rem;
-  position: relative;
-  overflow: hidden; 
-  transition: all 0.3s ease-in;
-}
 
-.projects-list li .placeholder::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(#d5d5d5, #3d3d3d);
-  opacity: 0;
-  transition: opacity 0.3s ease-in;
-  z-index: 0;
-  border-radius: inherit;
-}
-
-.projects-list li .placeholder:hover::before {
-  opacity: 1;
-}
-
-.projects-list li .placeholder * {
-  position: relative;
-  z-index: 1; 
-}
-.projects-list li p {
-    position: absolute;
-    top: 0;
-    font-weight: 600;
-    font-size: 1.3rem;
-    color: #d9d9d9;
-    text-transform: capitalize;
-    padding-top: .7rem;
-}
-.projects-list li {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.projects-list li img{
-    width: 330px;
-    border-radius: .6rem;
-    position: relative;
-    z-index: -1;
-    height: 226px;
-    border:1px solid #ccc;
-}
 #technologies {
     display: flex ;
     flex-direction: column;
