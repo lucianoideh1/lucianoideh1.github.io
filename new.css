@@ -164,6 +164,21 @@ main {
     overflow: hidden;
     border-radius: .3rem;
     border: 1px solid gray;
+    position: relative;
+}
+.coming-soon{
+     position: absolute;
+    z-index: 200;
+    background-color: #222222cc; /* add some transparency if you want */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.1rem;
 }
 .project img:hover {
     transform: scale(1.05);
