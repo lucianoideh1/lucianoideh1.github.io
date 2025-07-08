@@ -197,6 +197,12 @@ main {
     border-radius: .3rem;
     width: fit-content;
     padding: .3rem .6rem;
+    transition: transform 200ms ease-out;
+}
+.tags li:hover {
+    color: #eee;
+    transform: scale(1.1);
+    cursor: pointer;
 }
 .project img:hover {
     transform: scale(1.05);
