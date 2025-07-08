@@ -54,10 +54,16 @@ header {
 a{
     color: #40a9e2;
 }
+a:hover{ 
+    color: #53bef8;
+}
 nav ul li a {
     color: #ccc;
     text-decoration: none;
     text-transform: capitalize;
+}
+nav ul li a:hover{
+    color:#fff;
 }
 .name-role {
     display: flex;
