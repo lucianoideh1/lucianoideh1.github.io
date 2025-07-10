@@ -76,11 +76,7 @@ nav ul li a:hover{
     color: #eeeeee;
     text-align: center;
 
-     background: linear-gradient(90deg, #d063ef, #5197f3);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text; /* Firefox */
-    color: transparent;
+     
    
 }
 .available{
@@ -93,6 +89,12 @@ nav ul li a:hover{
     font-size: 2rem;
     letter-spacing: -1px;
     color: #eee;
+    
+    background: linear-gradient(45deg, #c183d2, #78adf3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* Firefox */
+    color: transparent;
 }
 .section-title{
     font-size: 1.8rem;
@@ -139,6 +141,7 @@ main {
     height: calc(100dvh - 80px);
     background:linear-gradient(0deg,  #232222 10%,#7b7b7b);
     background:linear-gradient(0deg,  #232222 10%,#b9a486);
+    background:linear-gradient(0deg,  #232222 10%,#b2a98ac4);
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     position: absolute;
