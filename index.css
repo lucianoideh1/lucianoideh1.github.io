@@ -130,9 +130,6 @@ nav ul li a:hover{
     letter-spacing: -1px;
     color: #eeeeee;
     text-align: center;
-
-     
-   
 }
 .available{
     border: 1px solid rgb(99, 224, 77);
@@ -179,6 +176,7 @@ nav ul li a:hover{
     text-align: center;
     max-width: 40ch;
     color: #ddd;
+    margin: 0 auto;
 }
 
 main {
