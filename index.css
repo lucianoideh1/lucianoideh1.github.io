@@ -1,63 +1,63 @@
 @font-face {
     font-family: "Roboto";
     font-weight: 300;
-    src: url("/assets/fonts/roboto-thin-webfont.woff2") format(".woff2"),
-         url("/assets/fonts/roboto-thin-webfont.woff") format(".woff");
+    src: url("/assets/fonts/roboto-thin-webfont.woff2") format("woff2"),
+         url("/assets/fonts/roboto-thin-webfont.woff") format("woff");
 }
 @font-face {
     font-family: "Roboto";
     font-weight: 400;
-    src: url("/assets/fonts/roboto-regular-webfont.woff2") format(".woff2"),
-     url("/assets/fonts/roboto-regular-webfont.woff") format(".woff");
+    src: url("/assets/fonts/roboto-regular-webfont.woff2") format("woff2"),
+     url("/assets/fonts/roboto-regular-webfont.woff") format("woff");
 }
 @font-face {
     font-family: "Roboto";
     font-weight: 500;
-    src: url("/assets/fonts/roboto-medium-webfont.woff2") format(".woff2"),
-     url("/assets/fonts/roboto-medium-webfont.woff") format(".woff");
+    src: url("/assets/fonts/roboto-medium-webfont.woff2") format("woff2"),
+     url("/assets/fonts/roboto-medium-webfont.woff") format("woff");
 }
 @font-face {
     font-family: "Roboto";
     font-weight: 700;
-    src: url("/assets/fonts/roboto-bold-webfont.woff2") format(".woff2"),
-    url("/assets/fonts/roboto-bold-webfont.woff") format(".woff");
+    src: url("/assets/fonts/roboto-bold-webfont.woff2") format("woff2"),
+    url("/assets/fonts/roboto-bold-webfont.woff") format("woff");
 }
 @font-face {
     font-family: "Roboto";
     font-weight: 900;
-    src: url("/assets/fonts/roboto-black-webfont.woff2") format(".woff2"),
-     url("/assets/fonts/roboto-black-webfont.woff") format(".woff");
+    src: url("/assets/fonts/roboto-black-webfont.woff2") format("woff2"),
+     url("/assets/fonts/roboto-black-webfont.woff") format("woff");
 }
 
 @font-face {
     font-family: "RobotoSerif";
     font-weight: 400;
-    src: url("/assets/fonts/RobotoSerif-Regular.woff2") format(".woff2"),
+    src: url("/assets/fonts/RobotoSerif-Regular.woff2") format("woff2"),
 }
 @font-face {
     font-family: "RobotoSerif";
     font-weight: 500;
-    src: url("/assets/fonts/RobotoSerif-Medium.woff2") format(".woff2"),
+    src: url("/assets/fonts/RobotoSerif-Medium.woff2") format("woff2"),
 }
 @font-face {
     font-family: "RobotoSerif";
     font-weight: 600;
-    src: url("/assets/fonts/RobotoSerif-SemiBold.woff2") format(".woff2"),
+    src: url("/assets/fonts/RobotoSerif-SemiBold.woff2") format("woff2"),
 }
 @font-face {
     font-family: "RobotoSerif";
     font-weight: 700;
-    src: url("/assets/fonts/RobotoSerif-Bold.woff2") format(".woff2"),
+    src: url("/assets/fonts/RobotoSerif-Bold.woff2") format("woff2"),
 }
 @font-face {
     font-family: "RobotoSerif";
     font-weight: 800;
-    src: url("/assets/fonts/RobotoSerif-ExtraBold.woff2") format(".woff2"),
+    src: url("/assets/fonts/RobotoSerif-ExtraBold.woff2") format("woff2"),
 }
 @font-face {
     font-family: "RobotoSerif";
     font-weight: 900;
-    src: url("/assets/fonts/RobotoSerif-Black.woff2") format(".woff2"),
+    src: url("/assets/fonts/RobotoSerif-Black.woff2") format("woff2"),
 }
 
 *,
@@ -68,6 +68,30 @@
     min-width:0;
     padding: 0;
     margin: 0;
+}
+.serif-regular{
+    font-family: "RobotoSerif";
+    font-weight: 400;
+}
+.serif-medium{
+    font-family: "RobotoSerif";
+    font-weight: 500;
+}
+.serif-semibold{
+    font-family: "RobotoSerif";
+    font-weight: 600;
+}
+.serif-bold{
+    font-family: "RobotoSerif";
+    font-weight: 700;
+}
+.serif-extrabold{
+    font-family: "RobotoSerif";
+    font-weight: 800;
+}
+.serif-black{
+    font-family: "RobotoSerif";
+    font-weight: 900;
 }
 html{
     scroll-behavior: smooth;
