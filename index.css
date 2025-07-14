@@ -220,11 +220,10 @@ main {
 }
 .project-img {
     min-width: 330px;
-  
     transition: transform 300ms ease-out;
 }
 .project-img-container{
-    width: 300px;
+    width: 250px;
     height: 200px;
     overflow: hidden;
     border-radius: .3rem;
@@ -263,9 +262,7 @@ main {
     transform: scale(1.1);
     cursor: pointer;
 }
-.project-img:hover {
-    transform: scale(1.05);
-}
+
 #projects .section-header {
     margin-bottom: 4rem;
 }
