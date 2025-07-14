@@ -218,7 +218,7 @@ main {
     flex-direction: column;
     gap: 1rem;
 }
-.project img {
+.project-img {
     min-width: 330px;
   
     transition: transform 300ms ease-out;
@@ -263,7 +263,7 @@ main {
     transform: scale(1.1);
     cursor: pointer;
 }
-.project img:hover {
+.project-img:hover {
     transform: scale(1.05);
 }
 #projects .section-header {
@@ -426,7 +426,7 @@ main {
     text-align: center;
 }
 .pblur-object {
-    display: hidden;
+    display: none;
 }
 @media (min-width:600px) {
     header, nav {
@@ -452,8 +452,10 @@ main {
     
    .project {
     flex-direction: row;
+    align-items: center;
 }
 .pblur-object {
     display: block;
+    width: 250px;
 }
 }
