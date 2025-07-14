@@ -425,6 +425,9 @@ main {
     margin-bottom: 2rem;
     text-align: center;
 }
+.pblur-object {
+    display: hidden;
+}
 @media (min-width:600px) {
     header, nav {
         display: flex; 
@@ -449,5 +452,8 @@ main {
     
    .project {
     flex-direction: row;
+}
+.pblur-object {
+    display: block;
 }
 }
