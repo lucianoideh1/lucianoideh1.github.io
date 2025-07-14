@@ -29,6 +29,36 @@
      url("/assets/fonts/roboto-black-webfont.woff") format(".woff");
 }
 
+@font-face {
+    font-family: "RobotoSerif";
+    font-weight: 400;
+    src: url("/assets/fonts/RobotoSerif-Regular.woff2") format(".woff2"),
+}
+@font-face {
+    font-family: "RobotoSerif";
+    font-weight: 500;
+    src: url("/assets/fonts/RobotoSerif-Medium.woff2") format(".woff2"),
+}
+@font-face {
+    font-family: "RobotoSerif";
+    font-weight: 600;
+    src: url("/assets/fonts/RobotoSerif-SemiBold.woff2") format(".woff2"),
+}
+@font-face {
+    font-family: "RobotoSerif";
+    font-weight: 700;
+    src: url("/assets/fonts/RobotoSerif-Bold.woff2") format(".woff2"),
+}
+@font-face {
+    font-family: "RobotoSerif";
+    font-weight: 800;
+    src: url("/assets/fonts/RobotoSerif-ExtraBold.woff2") format(".woff2"),
+}
+@font-face {
+    font-family: "RobotoSerif";
+    font-weight: 900;
+    src: url("/assets/fonts/RobotoSerif-Black.woff2") format(".woff2"),
+}
 
 *,
 *::after,
