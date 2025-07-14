@@ -442,14 +442,21 @@ main {
 
 }
 @media (min-width:800px) {
-    main{
-        flex-direction: row;
-        justify-content:center;
-    }
-    
-   .project {
+main{
     flex-direction: row;
-    align-items: center;
+    justify-content:center;
+}
+
+.projects-list{
+    gap: 7rem;
+}
+.project {
+flex-direction: row;
+align-items: center;
+
+}
+.projects-list li:nth-child(2) .project {
+  flex-direction: row-reverse;
 }
 .pblur-object {
     display: block;
