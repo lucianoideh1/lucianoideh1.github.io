@@ -53,6 +53,7 @@ header {
 }
 a{
     color: #40a9e2;
+    text-decoration: none;
 }
 a:hover{ 
     color: #53bef8;
