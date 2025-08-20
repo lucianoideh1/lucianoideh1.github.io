@@ -143,11 +143,7 @@ nav ul li a:hover{
     color: #eee;
     margin-bottom: 1rem;
     
-    background: linear-gradient(45deg, #c183d2, #78adf3);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text; /* Firefox */
-    color: transparent;
+
 }
 .section-title{
     font-size: 1.8rem;
@@ -345,18 +341,19 @@ main {
     width: 120px;
 }
 .linkedin {
-    border: 2px solid hsl(219, 75%, 75%);
-    color: hsl(219, 67%, 75%);
+       border: 2px solid hsl(0, 0%, 75%);
+    color: hsl(0, 0%, 85%);
     transition: background-color 300ms ease-in;
 }
 .linkedin:hover{
     cursor: pointer;
-    background-color: hsl(219, 43%, 43%);
+    background-color: hsl(0, 0%, 19%);
     color: hsl(0, 0%, 87%);
 }
 .github {
     border: 2px solid hsl(0, 0%, 75%);
-    color: hsl(0, 0%, 85%);
+    color: hsl(0, 0%, 23%);
+    background-color:hsl(0, 0%, 85%) ;
     transition: background-color 300ms ease-in;
 }
 .github:hover{
