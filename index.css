@@ -286,6 +286,7 @@ main {
     text-align: center;
     gap: 4rem;
     margin-bottom: 6rem;
+    background: linear-gradient(45deg, #181818,#535353);
 }
 .technologies-list{
     display: grid;
