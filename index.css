@@ -408,17 +408,28 @@ main {
     justify-content: center;
     padding: 1rem;
     border-radius: .3rem;
-    background-color: #3d3d3d;
+    color: #181818;
+    background-color: #cecece;
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
     max-width: 620px;
 }
 
+#contact .section-title {
+    color: #181818;
+}
+
 #contact p {
     max-width: 40ch;
+    /* color: white; */
     margin-bottom: 2rem;
     text-align: center;
 }
+
+#contact a {
+    color: #2e81ed;
+}
+
 .pblur-object {
     display: none;
 }
