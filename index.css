@@ -410,9 +410,9 @@ main {
     border-radius: .3rem;
     color: #181818;
     background-color: #cecece;
-    border-top-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    max-width: 620px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 320px;
 }
 
 #contact .section-title {
@@ -448,6 +448,7 @@ main {
         list-style: none;
     }
 
+
 }
 @media (min-width:800px) {
 main{
@@ -470,4 +471,10 @@ align-items: center;
     display: block;
     width: 250px;
 }
+
+.contact-box {
+    width: 820px;
 }
+
+}
+
