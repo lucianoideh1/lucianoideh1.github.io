@@ -113,7 +113,8 @@ a:hover{
     color: #53bef8;
 }
 nav ul li a {
-    color: #ccc;
+    font-weight: 600;
+    color: #ddd;
     text-decoration: none;
     text-transform: capitalize;
 }
