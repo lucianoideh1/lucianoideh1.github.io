@@ -1,3 +1,13 @@
+document.addEventListener("DOMContentLoaded", () => {
+  const emailElement = document.getElementById("email");
+  emailElement.addEventListener("click", async () => {
+    const email = emailElement.textContent.trim();
+    await navigator.clipboard.writeText(email);
+    const original = emailElement.textContent;
+    emailElement.textContent = "Copied!";
+    setTimeout(() => (emailElement.textContent = original), 1500);
+  });
+});
 
 document.getElementById('download-btn').addEventListener('click', function () {
     const link = document.createElement('a');
@@ -30,3 +40,4 @@ document.getElementById('download-btn').addEventListener('click', function () {
       navLinks.classList.remove('active');
     });
   });
+

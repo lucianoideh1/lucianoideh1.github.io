@@ -426,6 +426,23 @@ main {
     margin-bottom: 6rem;
     
 }
+
+#email {
+  cursor: pointer;
+  color: #333;
+  border: 1px solid #ddd;
+  padding: 6px 10px;
+  border-radius: 6px;
+  display: inline-block;
+  transition: background 0.2s ease;
+  display: flex;
+  align-items: center;
+  text-decoration: underline;
+}
+
+#email:hover {
+  background: #b4b4b4;
+}
 .contact-box {
     max-width: 800px;
 
