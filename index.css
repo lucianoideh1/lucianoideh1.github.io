@@ -215,12 +215,12 @@ main {
     gap: 1rem;
 }
 .project-img {
-    min-width: 330px;
+    min-width: 310px;
     transition: transform 300ms ease-out;
 }
 .project-img-container{
-    width: 250px;
-    height: 200px;
+    width: 230px;
+    height: 180px;
     overflow: hidden;
     border-radius: .3rem;
     border: 1px solid gray;
