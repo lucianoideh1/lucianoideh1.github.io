@@ -443,7 +443,12 @@ main {
     background-color: #141414;
     cursor: pointer;
 }
-
+.project-placeholder{
+    background-color: #c9c0c0;
+    background:linear-gradient(30deg, #939393,#211f1f);
+    width: 100%;
+    height: 100%;
+}
 .contact-bottom{
     background-color: #a9a9a9;
     font-weight: 700;
