@@ -269,7 +269,7 @@ main {
     color: #eee;
 }
 #projects p {
-    max-width: 50ch;
+    max-width: 42ch;
     line-height: 1.8;
 }
 .projects-list {
@@ -289,10 +289,11 @@ main {
     /* background: linear-gradient(45deg, #181818,#535353); */
     position: relative;
     overflow:hidden;
+    padding: 2rem 0;
 }
-.ballin{
+.ball{
     position: absolute;
-    background-color: #ddd;
+    background-color: #dddddd8f;
     width: 300px;
     height: 300px;
     border-radius: 100%;
