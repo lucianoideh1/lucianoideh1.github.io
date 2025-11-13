@@ -267,7 +267,6 @@ main {
 }
 #projects h3 {
     color: #eee;
-    margin-bottom: 1rem;
 }
 #projects p {
     max-width: 50ch;
@@ -427,6 +426,22 @@ main {
 
 #contact a {
     color: #2e81ed;
+}
+.project-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.project-link{
+    background-color: #0b0b0b;
+    /* color: white; */
+    padding: .3rem 1.2rem;
+    /* border-radius: 20px; */
+}
+.project-link:hover {
+    /* color: white; */
+    background-color: #141414;
+    cursor: pointer;
 }
 
 .contact-bottom{
