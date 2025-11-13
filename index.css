@@ -294,12 +294,16 @@ main {
 }
 .tech-list {
     display: flex;
+    flex-direction: column; 
     gap: 1rem;
-    flex-wrap: wrap;
-    justify-content: center;
 
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
+    /* display: grid;
+    grid-template-columns: repeat(5,1fr); */
+}
+.tech-row{
+    display: flex; 
+    gap: 1rem;
+    align-items: center;
 }
 .tech-list li {
     display: flex;
