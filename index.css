@@ -301,6 +301,9 @@ main {
     bottom: -100px;
     filter: blur(100px);
 }
+.italic{
+    font-style: italic;
+}
 .technologies-list{
     display: grid;
     grid-template-columns: repeat(3,100px);
