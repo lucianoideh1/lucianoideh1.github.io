@@ -285,7 +285,20 @@ main {
     text-align: center;
     gap: 4rem;
     margin-bottom: 6rem;
-    background: linear-gradient(45deg, #181818,#535353);
+    background-color: #313131 ;
+    /* background: linear-gradient(45deg, #181818,#535353); */
+    position: relative;
+    overflow:hidden;
+}
+.ballin{
+    position: absolute;
+    background-color: #ddd;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    left: -50px;
+    bottom: -100px;
+    filter: blur(100px);
 }
 .technologies-list{
     display: grid;
