@@ -561,9 +561,15 @@ align-items: center;
 
 .underline {
     text-decoration: underline;
+    width: 300px;
+    border-radius: 20px;
+    border: 1px solid gray;
+
 }
 
 #new-site {
     text-align: center;
+    display: flex;
+    justify-content: center;
     margin-bottom:200px;
 }
