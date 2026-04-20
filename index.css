@@ -559,3 +559,11 @@ align-items: center;
 
 }
 
+.underline {
+    text-decoration: underline;
+}
+
+#new-site {
+    text-align: center;
+    margin-bottom:200px;
+}
