@@ -578,3 +578,6 @@ align-items: center;
     align-items: center;
     margin-bottom:200px;
 }
+#new-site h1{
+    padding: 1rem;
+}
