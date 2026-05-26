@@ -569,8 +569,12 @@ align-items: center;
 }
 
 #new-site {
+    /* border:1px solid black; */
+    /* min-height: 100vh; */
+    min-height: 40vh;
     text-align: center;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-bottom:200px;
 }
