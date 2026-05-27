@@ -577,7 +577,11 @@ align-items: center;
     justify-content: center;
     align-items: center;
     margin-bottom:200px;
+    gap: 1rem;
 }
-#new-site h1{
-    padding: 1rem;
+
+
+.h1-2026 {
+    color: #fff;
 }
+
