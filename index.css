@@ -589,5 +589,10 @@ align-items: center;
     border: 1px solid rgb(46, 185, 255);
     padding: 0.3rem;
     border-radius: .6rem;
+
+    transition: background .3s ease-in;
 }
 
+.here-btn:hover {
+    background-color: rgba(46, 185, 255, 0.296);
+}
