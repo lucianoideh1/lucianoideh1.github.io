@@ -578,8 +578,17 @@ align-items: center;
     align-items: center;
     margin-bottom:200px;
     gap: 1rem;
+
+    position: relative;
 }
 
+.black-gradient {
+    background-color: #141414;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
 
 .h1-2026 {
     color: #fff;
