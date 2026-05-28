@@ -576,7 +576,7 @@ align-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom:200px;
+    /* margin-bottom:200px; */
     gap: 1rem;
 
     position: relative;
@@ -593,6 +593,7 @@ align-items: center;
 
 .h1-2026 {
     color: #fff;
+    font-size: 2.8rem;
 }
 
 .here-btn {
@@ -600,7 +601,7 @@ align-items: center;
     padding: 0.3rem;
     border-radius: .6rem;
 
-    transition: background .3s ease-in;
+    transition: background .2s ease-in;
 }
 
 .here-btn:hover {
