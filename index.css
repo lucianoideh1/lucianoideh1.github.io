@@ -574,6 +574,7 @@ align-items: center;
     min-height: 40vh;
     text-align: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     /* margin-bottom:200px; */
@@ -594,6 +595,9 @@ align-items: center;
 .h1-2026 {
     color: #fff;
     font-size: 2.8rem;
+
+    display: flex;
+    flex-direction: column;
 }
 
 .here-btn {
