@@ -254,11 +254,6 @@ main {
     padding: .3rem .6rem;
     transition: transform 200ms ease-out;
 }
-.tags li:hover {
-    color: #eee;
-    transform: scale(1.1);
-    cursor: pointer;
-}
 
 #projects .section-header {
     margin-bottom: 4rem;
