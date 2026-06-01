@@ -319,26 +319,6 @@ main {
     color: hsl(0, 0%, 87%);
 }
 
-#about{
-    display: flex;
-    gap: 1rem;
-
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-
-    margin-bottom: 6rem;
-}
-#about article {
-    line-height: 1.8;
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
-
-    max-width: 50ch;
-}
-
 .blue-text{
     color: #4086e2;
 }
@@ -349,28 +329,7 @@ main {
     color:#e3ea7f;
 }
 
-#contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0 .5rem 2rem .5rem;
-    margin-bottom: 6rem;
-    
-}
 
-#email {
-  cursor: pointer;
-  color: #333;
-  border: 1px solid #ddd;
-  padding: 6px 10px;
-  border-radius: 6px;
-  display: inline-block;
-  transition: background 0.2s ease;
-  display: flex;
-  align-items: center;
-  text-decoration: underline;
-}
 
 #email:hover {
   background: #b4b4b4;
@@ -389,20 +348,6 @@ main {
     width: 320px;
 }
 
-#contact .section-title {
-    color: #181818;
-}
-
-#contact p {
-    max-width: 40ch;
-    /* color: white; */
-    margin-bottom: 2rem;
-    text-align: center;
-}
-
-#contact a {
-    color: #2e81ed;
-}
 .project-header {
     display: flex;
     align-items: center;
