@@ -143,8 +143,6 @@ nav ul li a:hover{
     letter-spacing: -1px;
     color: #eee;
     margin-bottom: 1rem;
-    
-
 }
 .section-title{
     font-size: 1.8rem;
@@ -274,7 +272,6 @@ main {
     gap:4rem;
 }
 
-
 .italic{
     font-style: italic;
 }
@@ -318,8 +315,6 @@ main {
     background-color: hsl(0, 0%, 13%);
     color: hsl(0, 0%, 87%);
 }
-
-
 
 .project-header {
     display: flex;
