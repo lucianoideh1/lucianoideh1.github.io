@@ -319,34 +319,7 @@ main {
     color: hsl(0, 0%, 87%);
 }
 
-.blue-text{
-    color: #4086e2;
-}
-.red-text{
-    color:#e67373;
-}
-.yellow-text{
-    color:#e3ea7f;
-}
 
-
-
-#email:hover {
-  background: #b4b4b4;
-}
-.contact-box {
-    max-width: 800px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem;
-    border-radius: .3rem;
-    color: #181818;
-    background-color: #dedede;
-    border-radius: 12px;
-    width: 320px;
-}
 
 .project-header {
     display: flex;
@@ -363,23 +336,6 @@ main {
     /* color: white; */
     background-color: #141414;
     cursor: pointer;
-}
-.project-placeholder{
-    background-color: #c9c0c0;
-    background:linear-gradient(30deg, #939393,#211f1f);
-    width: 100%;
-    height: 100%;
-}
-.contact-bottom{
-    background-color: #a9a9a9;
-    font-weight: 700;
-    width: 100%;
-    height: 50px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
 }
 
 .pblur-object {
@@ -422,10 +378,6 @@ align-items: center;
 .pblur-object {
     display: block;
     width: 250px;
-}
-
-.contact-box {
-    width: 820px;
 }
 
 }
