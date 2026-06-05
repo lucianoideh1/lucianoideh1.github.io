@@ -316,26 +316,6 @@ main {
     color: hsl(0, 0%, 87%);
 }
 
-.project-header {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
-.project-link{
-    background-color: #0b0b0b;
-    /* color: white; */
-    padding: .3rem 1.2rem;
-    /* border-radius: 20px; */
-}
-.project-link:hover {
-    /* color: white; */
-    background-color: #141414;
-    cursor: pointer;
-}
-
-.pblur-object {
-    display: none;
-}
 @media (min-width:600px) {
     header, nav {
         display: flex; 
@@ -357,22 +337,6 @@ main {
 main{
     flex-direction: row;
     justify-content:center;
-}
-
-.projects-list{
-    gap: 7rem;
-}
-.project {
-flex-direction: row;
-align-items: center;
-
-}
-.projects-list li:nth-child(2) .project {
-  flex-direction: row-reverse;
-}
-.pblur-object {
-    display: block;
-    width: 250px;
 }
 
 }
